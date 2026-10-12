@@ -126,7 +126,21 @@ if len(files)>=6:
  for key,series,threshold in [('river_flood',flood,0),('river_flood_10cm',flood10,.1)]:
   base=series[base_idx];fut=np.array([series[i] for i in future_idx]);delta=fut-base
   records[key]={'rcp45':{'baseline':base,'near':np.full_like(base,np.nan),'future':np.nanmedian(fut,axis=0),'change':np.nanmedian(delta,axis=0),'spread':np.nanpercentile(fut,90,axis=0)-np.nanpercentile(fut,10,axis=0),'p10':np.nanpercentile(fut,10,axis=0),'p90':np.nanpercentile(fut,90,axis=0),'coverage':cov[0],'model_count':np.isfinite(fut).sum(axis=0)}}
-  metadata[key]=dict(label=f'River flood footprint · depth >{threshold:g} m',unit='% model-covered area',cmap='Blues',meaning=f'Area with modelled depth >{threshold:g} m for a 100-year river flood, divided by valid mapped area. No flood defences. Compare both depth thresholds: tiny positive values can dominate the >0 m footprint. Zero does not rule out small streams, coastal or rainfall-driven flooding.',baseline_label='River model baseline · 1960–1999',near_label='Not available',future_label='2050 label · 2030–2069',members=[flood_names[i] for i in future_idx])
+  metadata[key]=dict(change_unit='percentage points',ensemble_note='Five climate forcings, one river-model framework. Defences excluded.',change_label='Change vs WATCH baseline',detail_note='Changes are percentage points of model-covered area.',available_modes=['future','baseline','change','spread','coverage'],label=f'River flood footprint · depth >{threshold:g} m',unit='% model-covered area',cmap='Blues',meaning=f'Area with modelled depth >{threshold:g} m for a 100-year river flood, divided by valid mapped area. No flood defences. Compare both depth thresholds: tiny positive values can dominate the >0 m footprint. The official-map comparison below shows substantial disagreement. Zero does not rule out small streams, coastal or rainfall-driven flooding.',baseline_label='River model baseline · 1960–1999',near_label='Not available',future_label='2050 label · 2030–2069',members=[flood_names[i] for i in future_idx])
+
+# Optional single-model fire climatology, generated only after complete periods
+# have passed source checks in build_fire_highres.py.
+highres_path=OUT/'fire-highres.json'
+highres_provenance=None
+if highres_path.exists():
+ highres=json.loads(highres_path.read_text())
+ assert [c['id'] for c in highres['cells']]==ids, 'Fire comparison grid differs'
+ highres_provenance=json.loads((OUT/'fire-highres-provenance.json').read_text())
+ for key,scenarios in highres['values'].items():
+  assert key not in records
+  records[key]={sc:{k:np.asarray(v,dtype=float) for k,v in rec.items()} for sc,rec in scenarios.items()}
+  metadata[key]=highres['metadata'][key]
+ inputs.append({'path':str(highres_path.relative_to(ROOT)),'sha256':hashlib.sha256(highres_path.read_bytes()).hexdigest(),'processing':'scripts/build_fire_highres.py; input hashes in fire-highres-provenance.json'})
 
 def clean(a):
  a=np.asarray(a);return [None if not np.isfinite(v) else round(float(v),4) for v in a]
@@ -135,6 +149,8 @@ for i,g in enumerate(grid):
  props={'id':ids[i],'area_km2':round(areas[i]/1e6,4)}
  features.append({'type':'Feature','geometry':mapping(transform(unproject,g)),'properties':props})
 (OUT/'grid.geojson').write_text(json.dumps({'type':'FeatureCollection','features':features}))
+if highres_provenance is not None:
+ assert highres_provenance['grid_sha256']==hashlib.sha256((OUT/'grid.geojson').read_bytes()).hexdigest(), 'Fire comparison geometry changed; rerun build_fire_highres.py'
 values={var:{sc:{k:clean(a) for k,a in rec.items()} for sc,rec in scenarios.items()} for var,scenarios in records.items()}
 payload={'metadata':metadata,'values':values,'cells':[f['properties'] for f in features]}
 (OUT/'indicators.json').write_text(json.dumps(payload,allow_nan=False))
@@ -161,7 +177,8 @@ fig.suptitle('Galicia · 10 km exploratory climate grid\n2041–2070 · SSP2-4.5
 fig.text(.05,.025,'AdapteCCa / AEMET / CSIC · Boundary: Eurostat GISCO\nArea-weighted source indices; cells with <80% valid coverage are grey. No overall safety score.',fontsize=9)
 fig.savefig(OUT/'galicia-climate.png',dpi=160,bbox_inches='tight');plt.close(fig)
 summary={var:{sc:{'mapped_cells':int(np.isfinite(r['future']).sum()),'median_cell_change':float(np.nanmedian(r['change'])),'future_cell_range':[float(np.nanmin(r['future'])),float(np.nanmax(r['future']))]} for sc,r in scs.items()} for var,scs in records.items()}
-provenance={'grid_crs':'EPSG:3035','cell_side_m':10000,'grid_origin':[0,0],'boundary':'GISCO ES11 2024 1:1 million','cells':len(grid),'area_km2':float(areas.sum()/1e6),'minimum_valid_area_fraction':.8,'method':'Area-overlap weighted mean per source model and period, then ensemble median; climate changes paired by model; river changes compare each future forcing against one WATCH baseline; P90 minus P10 model spread. Source average member excluded.','inputs':inputs,'summary':summary,'script':'scripts/build_galicia.py'}
+provenance={'grid_crs':'EPSG:3035','cell_side_m':10000,'grid_origin':[0,0],'boundary':'GISCO ES11 2024 1:1 million','cells':len(grid),'area_km2':float(areas.sum()/1e6),'minimum_valid_area_fraction':.8,'method':'Area-overlap weighted mean per source model and period, then ensemble median; climate changes paired by model; river changes compare each future forcing against one WATCH baseline; P90 minus P10 model spread. Source average member excluded.','inputs':inputs,'summary':summary,'script':'scripts/build_galicia.py','script_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),'template_sha256':hashlib.sha256((ROOT/'scripts/galicia-report-template.html').read_bytes()).hexdigest()}
+if highres_provenance is not None:provenance['fire_highres']=highres_provenance
 (OUT/'provenance.json').write_text(json.dumps(provenance,indent=2))
 # SVG geometry for a self-contained interactive research artifact.
 scale=650/(xmax-xmin);height=(ymax-ymin)*scale
@@ -178,6 +195,53 @@ payload['paths']=paths;payload['height']=height
 payload['cities']=[]
 for name,lon,lat in [('A Coruña',-8.4115,43.3623),('Lugo',-7.556,43.01),('Santiago',-8.5448,42.8782),('Ourense',-7.8639,42.3358),('Vigo',-8.7207,42.2406)]:
  x,y=project(lon,lat);payload['cities'].append([name,(x-xmin)*scale,(ymax-y)*scale])
+# Retain the native FIRE-RES grid: these coarse ensemble summaries cannot
+# distinguish neighbouring 10 km cells, and expose no member-level spread.
+fire_dir=ROOT/'data/raw/public/galicia-fire-weather'
+fire_base=fire_dir/'JJA_FWI_1995_2014.nc'
+if fire_base.exists():
+ def fire_read(path):
+  inputs.append({'path':str(path.relative_to(ROOT)),'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'processing':'Published FIRE-RES JJA ensemble mean; native cells retained'})
+  with xr.open_dataset(path) as ds:
+   return ds.lon.values.copy(),ds.lat.values.copy(),ds.FWI.isel(time=0).values.copy()
+ flon,flat,fb=fire_read(fire_base)
+ def edges(c):
+  assert np.all(np.diff(c)>0)
+  return np.r_[c[0]-(c[1]-c[0])/2,(c[:-1]+c[1:])/2,c[-1]+(c[-1]-c[-2])/2]
+ xe,ye=edges(flon),edges(flat);fcells=[];fg=[];fidx=[]
+ for row,lat in enumerate(flat):
+  for col,lon in enumerate(flon):
+   if xe[col]>geom.bounds[2] or xe[col+1]<geom.bounds[0] or ye[row]>geom.bounds[3] or ye[row+1]<geom.bounds[1]:continue
+   g=transform(project,box(xe[col],ye[row],xe[col+1],ye[row+1])).intersection(region)
+   if g.area>1:
+    fg.append(g);fidx.append((row,col));fcells.append({'id':f'FWI_{row}_{col}','lat':float(lat),'lon':float(lon),'area_km2':g.area/1e6})
+ fa=np.array([g.area for g in fg]);assert abs(fa.sum()-region.area)/region.area<1e-9
+ fbaseline=np.array([fb[r,c] for r,c in fidx]);fscenarios={}
+ for scenario in ['SSP126','SSP245','SSP585']:
+  path=fire_dir/f'JJA_FWI_2041_2060_{scenario}.nc'
+  if not path.exists():continue
+  lon,lat,raw=fire_read(path);assert np.array_equal(lon,flon) and np.array_equal(lat,flat)
+  ffuture=np.array([raw[r,c] for r,c in fidx]);valid=np.isfinite(fbaseline)&np.isfinite(ffuture)
+  fscenarios[scenario.lower()]={'baseline':clean(fbaseline),'future':clean(ffuture),'change':clean(ffuture-fbaseline),'regional_baseline':float(np.sum(fbaseline[valid]*fa[valid])/fa[valid].sum()),'regional_future':float(np.sum(ffuture[valid]*fa[valid])/fa[valid].sum()),'valid_area_fraction':float(fa[valid].sum()/region.area)}
+ def svg_path(g):
+  parts=[]
+  for poly in ([g] if g.geom_type=='Polygon' else g.geoms):
+   if poly.geom_type!='Polygon':continue
+   for ring in [poly.exterior,*poly.interiors]:
+    xy=[((x-xmin)*scale,(ymax-y)*scale) for x,y in ring.coords]
+    parts.append('M'+' L'.join(f'{x:.2f},{y:.2f}' for x,y in xy)+' Z')
+  return ' '.join(parts)
+ payload['fire_context']={'cells':fcells,'paths':[svg_path(g) for g in fg],'values':fscenarios,'source_url':'https://doi.org/10.5281/zenodo.11083641','baseline_label':'1995–2014 · June–August','future_label':'2041–2060 · June–August','source_grid':'Approximately 0.5°; centre-derived cell boundaries','ensemble':'Published ensemble mean; model membership and spread unavailable in these files'}
+ (OUT/'fire-context.json').write_text(json.dumps(payload['fire_context'],indent=2,allow_nan=False))
+ provenance['fire_context']={'native_cells':len(fg),'method':'Native approximately 0.5 degree cells retained, clipped to Galicia. Bounds inferred from adjacent coordinate midpoints. Regional means use valid shared area. No 10 km fire-weather ranking or ensemble spread.','scenarios':{k:{key:v[key] for key in ['regional_baseline','regional_future','valid_area_fraction']} for k,v in fscenarios.items()}}
+validation_path=OUT/'flood-validation.json'
+if validation_path.exists():
+ validation=json.loads(validation_path.read_text())
+ assert [c['id'] for c in validation['cells']]==ids, 'Flood comparison grid differs; rerun validation'
+ assert validation['metadata']['grid_sha256']==hashlib.sha256((OUT/'grid.geojson').read_bytes()).hexdigest(), 'Flood comparison geometry changed; rerun validation'
+ payload['flood_validation']=validation
+ provenance['flood_validation']={'path':str(validation_path.relative_to(ROOT)),'sha256':hashlib.sha256(validation_path.read_bytes()).hexdigest()}
+(OUT/'provenance.json').write_text(json.dumps(provenance,indent=2))
 template=(ROOT/'scripts/galicia-report-template.html').read_text()
 (OUT/'galicia.html').write_text(template.replace('__DATA__',json.dumps(payload,allow_nan=False)))
 print(json.dumps(provenance['summary'],indent=2));print('Cells',len(grid),'area km2',areas.sum()/1e6)

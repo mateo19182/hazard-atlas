@@ -1,0 +1,20 @@
+{
+  "artifacts": [
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_2050_FWI_MRI-ESM2-0_ssp245.tif",
+      "url": "https://www.dropbox.com/t/8tb3nOWN0x7l6Hlq",
+      "sha256": "54b3a51968f827d3d2c32c16c2207cf28c0e62ffcfa50c748734ea5a11508e30",
+      "size_bytes": 1503341,
+      "acquired_at": "2026-10-12T19:28:17.958643+00:00",
+      "processing": "HTTP range crop through rasterio; no reprojection or CRS assignment. See access-metadata.json. Temporary signed URL deliberately not preserved."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/access-metadata.json",
+      "url": "https://www.dropbox.com/t/8tb3nOWN0x7l6Hlq",
+      "sha256": "1fbcb61cb89c451c565b332b0dbf093390798731f06f1b411ce93a5e7d2315b2",
+      "size_bytes": 1159,
+      "acquired_at": "2026-10-12T19:28:17.958643+00:00",
+      "processing": "HTTP range crop through rasterio; no reprojection or CRS assignment. See access-metadata.json. Temporary signed URL deliberately not preserved."
+    }
+  ]
+}

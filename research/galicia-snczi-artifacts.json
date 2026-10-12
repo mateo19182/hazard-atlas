@@ -1,0 +1,221 @@
+{
+  "artifacts": [
+    {
+      "path": "data/raw/public/galicia-snczi/collection.json",
+      "url": "https://gis.miteco.gob.es/geoserver/ogc/features/v1/collections/agua:Zi_laminas_q100?f=json",
+      "sha256": "15f192f83863c6f5cc034a50134cf0c56d82925add35fb388ce8cbf6512c1600",
+      "size_bytes": 5162,
+      "acquired_at": "2026-10-12T19:22:31.480421+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-snczi/t100-page-000.geojson",
+      "url": "https://gis.miteco.gob.es/geoserver/ogc/features/v1/collections/agua:Zi_laminas_q100/items?f=json&bbox=-9.35,41.75,-6.7,43.85&limit=100",
+      "sha256": "cea28ed328843dca7b832201d1f19e6ea39931a9011ba2678806169982add09c",
+      "size_bytes": 16918331,
+      "acquired_at": "2026-10-12T19:22:39.927746+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-snczi/t100-start-00100.geojson",
+      "url": "https://gis.miteco.gob.es/geoserver/ogc/features/v1/collections/agua:Zi_laminas_q100/items?f=json&bbox=-9.35,41.75,-6.7,43.85&limit=25&startIndex=100",
+      "sha256": "1d8638ef407d9af583871f2871b21acdefcd6a3147db60ef3173f8e61faf8a5b",
+      "size_bytes": 4270948,
+      "acquired_at": "2026-10-12T19:27:15.778693+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-snczi/t100-start-00125.geojson",
+      "url": "https://gis.miteco.gob.es/geoserver/ogc/features/v1/collections/agua:Zi_laminas_q100/items?f=json&bbox=-9.35,41.75,-6.7,43.85&limit=25&startIndex=125",
+      "sha256": "fc62f873a7082b3adbb432ee46cb16823ddc6eb0cbd9413e60e0745f10adc13c",
+      "size_bytes": 5808184,
+      "acquired_at": "2026-10-12T19:27:14.445169+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-snczi/t100-start-00150.geojson",
+      "url": "https://gis.miteco.gob.es/geoserver/ogc/features/v1/collections/agua:Zi_laminas_q100/items?f=json&bbox=-9.35,41.75,-6.7,43.85&limit=25&startIndex=150",
+      "sha256": "7946029dc2d1cb60097439823f468c19da01224ce76a6ddb8c44ca253be8f5d4",
+      "size_bytes": 20679251,
+      "acquired_at": "2026-10-12T19:27:16.585099+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-snczi/t100-start-00175.geojson",
+      "url": "https://gis.miteco.gob.es/geoserver/ogc/features/v1/collections/agua:Zi_laminas_q100/items?f=json&bbox=-9.35,41.75,-6.7,43.85&limit=25&startIndex=175",
+      "sha256": "51e6b987fcd38553af23fe08ae0f6997b6cd963fdf279b10681817c653cbf761",
+      "size_bytes": 12036386,
+      "acquired_at": "2026-10-12T19:27:17.223100+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-snczi/t100-start-00200.geojson",
+      "url": "https://gis.miteco.gob.es/geoserver/ogc/features/v1/collections/agua:Zi_laminas_q100/items?f=json&bbox=-9.35,41.75,-6.7,43.85&limit=25&startIndex=200",
+      "sha256": "78d0fb483c61557799e0a85fd61a186b3d7760c3c5dbb73c074e6cf16667db9d",
+      "size_bytes": 9327026,
+      "acquired_at": "2026-10-12T19:27:25.340049+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-snczi/t100-start-00225.geojson",
+      "url": "https://gis.miteco.gob.es/geoserver/ogc/features/v1/collections/agua:Zi_laminas_q100/items?f=json&bbox=-9.35,41.75,-6.7,43.85&limit=25&startIndex=225",
+      "sha256": "d046888150c8a199e6c0e748d5e813ac1b2a982fe02b6700ba89985d8b2f6334",
+      "size_bytes": 7195032,
+      "acquired_at": "2026-10-12T19:27:32.156132+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-snczi/t100-start-00250.geojson",
+      "url": "https://gis.miteco.gob.es/geoserver/ogc/features/v1/collections/agua:Zi_laminas_q100/items?f=json&bbox=-9.35,41.75,-6.7,43.85&limit=25&startIndex=250",
+      "sha256": "0faafeb8573733f9975db3f01064c1809e2809e8d9a36ffd6bcfd0c90de24499",
+      "size_bytes": 8819177,
+      "acquired_at": "2026-10-12T19:27:18.933507+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-snczi/t100-start-00275.geojson",
+      "url": "https://gis.miteco.gob.es/geoserver/ogc/features/v1/collections/agua:Zi_laminas_q100/items?f=json&bbox=-9.35,41.75,-6.7,43.85&limit=25&startIndex=275",
+      "sha256": "30d9df7c4f6cf493dc9b38f5d542d8de8d943385e2ee05ceccf58b48e429bbd7",
+      "size_bytes": 3457722,
+      "acquired_at": "2026-10-12T19:27:24.980819+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-snczi/t100-start-00300.geojson",
+      "url": "https://gis.miteco.gob.es/geoserver/ogc/features/v1/collections/agua:Zi_laminas_q100/items?f=json&bbox=-9.35,41.75,-6.7,43.85&limit=25&startIndex=300",
+      "sha256": "8f248ac7719911afe99be3d8125160c551407f5d6193a30fc52f1ff95d988333",
+      "size_bytes": 2795054,
+      "acquired_at": "2026-10-12T19:27:25.890079+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-snczi/t100-start-00325.geojson",
+      "url": "https://gis.miteco.gob.es/geoserver/ogc/features/v1/collections/agua:Zi_laminas_q100/items?f=json&bbox=-9.35,41.75,-6.7,43.85&limit=25&startIndex=325",
+      "sha256": "c3fdf0eb70c936c7d0f58686c1a0e38058757d1148f2169ad86037633aee2a89",
+      "size_bytes": 6692308,
+      "acquired_at": "2026-10-12T19:27:32.249234+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-snczi/t100-start-00350.geojson",
+      "url": "https://gis.miteco.gob.es/geoserver/ogc/features/v1/collections/agua:Zi_laminas_q100/items?f=json&bbox=-9.35,41.75,-6.7,43.85&limit=25&startIndex=350",
+      "sha256": "ba644dfc31bec5c1c0b74e953659ffe51733dc07af8ea64b8118beff1cd5f28a",
+      "size_bytes": 2694641,
+      "acquired_at": "2026-10-12T19:27:31.586062+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-snczi/t100-start-00375.geojson",
+      "url": "https://gis.miteco.gob.es/geoserver/ogc/features/v1/collections/agua:Zi_laminas_q100/items?f=json&bbox=-9.35,41.75,-6.7,43.85&limit=25&startIndex=375",
+      "sha256": "91bf97a5979f54c90221af2b23d446487c151917dae796961ebc510646712a7c",
+      "size_bytes": 6804603,
+      "acquired_at": "2026-10-12T19:27:33.153406+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-snczi/t100-start-00400.geojson",
+      "url": "https://gis.miteco.gob.es/geoserver/ogc/features/v1/collections/agua:Zi_laminas_q100/items?f=json&bbox=-9.35,41.75,-6.7,43.85&limit=25&startIndex=400",
+      "sha256": "4d6515509e5b2d3b171561a1ab4919dd8127f561c94e31fec947e4c82b63506f",
+      "size_bytes": 5164704,
+      "acquired_at": "2026-10-12T19:27:34.081567+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-snczi/t100-start-00425.geojson",
+      "url": "https://gis.miteco.gob.es/geoserver/ogc/features/v1/collections/agua:Zi_laminas_q100/items?f=json&bbox=-9.35,41.75,-6.7,43.85&limit=25&startIndex=425",
+      "sha256": "5ea2cafb49fbea0c481d5541a692237853918bddc9b8715c498d8caa0491154d",
+      "size_bytes": 4460558,
+      "acquired_at": "2026-10-12T19:27:33.981893+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-snczi/t100-start-00450.geojson",
+      "url": "https://gis.miteco.gob.es/geoserver/ogc/features/v1/collections/agua:Zi_laminas_q100/items?f=json&bbox=-9.35,41.75,-6.7,43.85&limit=25&startIndex=450",
+      "sha256": "e02793de6ea42ccbe390e64b1d9e2a49fb4faf00d185907c3dbc5e7162f34ea0",
+      "size_bytes": 6032083,
+      "acquired_at": "2026-10-12T19:27:34.836100+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-snczi/t100-start-00475.geojson",
+      "url": "https://gis.miteco.gob.es/geoserver/ogc/features/v1/collections/agua:Zi_laminas_q100/items?f=json&bbox=-9.35,41.75,-6.7,43.85&limit=25&startIndex=475",
+      "sha256": "706baef46b476852df5241f8dd977e9d6eb67570890a824cdb3358dcd13d639e",
+      "size_bytes": 9531435,
+      "acquired_at": "2026-10-12T19:27:45.870113+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-snczi/t100-start-00500.geojson",
+      "url": "https://gis.miteco.gob.es/geoserver/ogc/features/v1/collections/agua:Zi_laminas_q100/items?f=json&bbox=-9.35,41.75,-6.7,43.85&limit=25&startIndex=500",
+      "sha256": "93a0488dcd52ffbd3d39f821611c6b1485985bc0785fc9dd5962a37f7ae15801",
+      "size_bytes": 7107550,
+      "acquired_at": "2026-10-12T19:27:45.552108+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-snczi/t100-start-00525.geojson",
+      "url": "https://gis.miteco.gob.es/geoserver/ogc/features/v1/collections/agua:Zi_laminas_q100/items?f=json&bbox=-9.35,41.75,-6.7,43.85&limit=25&startIndex=525",
+      "sha256": "3302f85b32a09323c1c93bfc5c28384c2507691e76e761c72f808c8e5ef154da",
+      "size_bytes": 7391978,
+      "acquired_at": "2026-10-12T19:27:45.686929+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-snczi/t100-start-00550.geojson",
+      "url": "https://gis.miteco.gob.es/geoserver/ogc/features/v1/collections/agua:Zi_laminas_q100/items?f=json&bbox=-9.35,41.75,-6.7,43.85&limit=25&startIndex=550",
+      "sha256": "ffc809524b6e0cb6be43383a822df2e8c31c56adc89d80fae22d43fa10f19b15",
+      "size_bytes": 4842501,
+      "acquired_at": "2026-10-12T19:27:47.140944+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-snczi/t100-start-00575.geojson",
+      "url": "https://gis.miteco.gob.es/geoserver/ogc/features/v1/collections/agua:Zi_laminas_q100/items?f=json&bbox=-9.35,41.75,-6.7,43.85&limit=25&startIndex=575",
+      "sha256": "a9591ea1a3fa411ce377a7d6b865a464f89c3f137ea6ea7f41f7b0c213442d55",
+      "size_bytes": 7556962,
+      "acquired_at": "2026-10-12T19:27:47.595220+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-snczi/t100-start-00600.geojson",
+      "url": "https://gis.miteco.gob.es/geoserver/ogc/features/v1/collections/agua:Zi_laminas_q100/items?f=json&bbox=-9.35,41.75,-6.7,43.85&limit=25&startIndex=600",
+      "sha256": "abe16f074762406adad3c9640c4a7a7306842086cd3ad50a6744cbc8f67cfdc8",
+      "size_bytes": 9924421,
+      "acquired_at": "2026-10-12T19:27:48.027166+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-snczi/t100-start-00625.geojson",
+      "url": "https://gis.miteco.gob.es/geoserver/ogc/features/v1/collections/agua:Zi_laminas_q100/items?f=json&bbox=-9.35,41.75,-6.7,43.85&limit=25&startIndex=625",
+      "sha256": "f360ab55eed4e5211ff775ebb25f129428e907067cf46e31df9b76e2cfd991ff",
+      "size_bytes": 43526634,
+      "acquired_at": "2026-10-12T19:27:53.453417+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-snczi/t100-start-00650.geojson",
+      "url": "https://gis.miteco.gob.es/geoserver/ogc/features/v1/collections/agua:Zi_laminas_q100/items?f=json&bbox=-9.35,41.75,-6.7,43.85&limit=25&startIndex=650",
+      "sha256": "3956e347e7c711899ab5a628d1449f1c0cf9c9746527687e21d51b0849b4a555",
+      "size_bytes": 4101269,
+      "acquired_at": "2026-10-12T19:27:49.502943+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-snczi/t100-start-00675.geojson",
+      "url": "https://gis.miteco.gob.es/geoserver/ogc/features/v1/collections/agua:Zi_laminas_q100/items?f=json&bbox=-9.35,41.75,-6.7,43.85&limit=25&startIndex=675",
+      "sha256": "a46b3dc40ac8a955980ad0ccf2b733ae396b736693f61bf81a041f62ee62360d",
+      "size_bytes": 3515932,
+      "acquired_at": "2026-10-12T19:27:49.395132+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-snczi/t100-start-00700.geojson",
+      "url": "https://gis.miteco.gob.es/geoserver/ogc/features/v1/collections/agua:Zi_laminas_q100/items?f=json&bbox=-9.35,41.75,-6.7,43.85&limit=25&startIndex=700",
+      "sha256": "e5aeb4801488ce24466718d48b7b1cb02f448dfb3854bdb0315b602e30a44445",
+      "size_bytes": 5375674,
+      "acquired_at": "2026-10-12T19:27:51.053544+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-snczi/t100-start-00725.geojson",
+      "url": "https://gis.miteco.gob.es/geoserver/ogc/features/v1/collections/agua:Zi_laminas_q100/items?f=json&bbox=-9.35,41.75,-6.7,43.85&limit=25&startIndex=725",
+      "sha256": "53a73ddb224f2ad5d5d15dca76875f54b670ad105223424664e2d9752914b367",
+      "size_bytes": 7902894,
+      "acquired_at": "2026-10-12T19:27:51.470484+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-snczi/t100-start-00750.geojson",
+      "url": "https://gis.miteco.gob.es/geoserver/ogc/features/v1/collections/agua:Zi_laminas_q100/items?f=json&bbox=-9.35,41.75,-6.7,43.85&limit=25&startIndex=750",
+      "sha256": "53406578661f824fb341bfeb7e4f03dfa583639a565a01e1e08cf4e1b4d40c66",
+      "size_bytes": 15554919,
+      "acquired_at": "2026-10-12T19:27:54.506180+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-snczi/t100-start-00775.geojson",
+      "url": "https://gis.miteco.gob.es/geoserver/ogc/features/v1/collections/agua:Zi_laminas_q100/items?f=json&bbox=-9.35,41.75,-6.7,43.85&limit=25&startIndex=775",
+      "sha256": "4e2e5d3bf21b77b54aa85971249ab63d61372c82f43282bd4f0bc093e3161b84",
+      "size_bytes": 6281316,
+      "acquired_at": "2026-10-12T19:27:54.176179+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-snczi/t100-start-00800.geojson",
+      "url": "https://gis.miteco.gob.es/geoserver/ogc/features/v1/collections/agua:Zi_laminas_q100/items?f=json&bbox=-9.35,41.75,-6.7,43.85&limit=25&startIndex=800",
+      "sha256": "0cf505b21344d358804747025191a63583a4304c02783fb46ee1416c599bf4e0",
+      "size_bytes": 3652257,
+      "acquired_at": "2026-10-12T19:27:55.794182+00:00"
+    }
+  ]
+}

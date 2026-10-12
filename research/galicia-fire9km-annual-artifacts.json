@@ -1,0 +1,380 @@
+{
+  "artifacts": [
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_1995_FWI_MRI-ESM2-0_Historical.tif",
+      "url": "https://www.dropbox.com/t/yWLAXn40ZjqwjDlD",
+      "provider_filename": "ET_daily_1995_FWI_MRI-ESM2-0_Historical.tif",
+      "sha256": "cd7eb20fd07be74d83c2adadad4fc1bb53630c6aab5962685eeddd5023c9ccc8",
+      "size_bytes": 1511312,
+      "acquired_at": "2026-10-12T19:30:34.096523+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_1996_FWI_MRI-ESM2-0_Historical.tif",
+      "url": "https://www.dropbox.com/t/yWLAXn40ZjqwjDlD",
+      "provider_filename": "ET_daily_1996_FWI_MRI-ESM2-0_Historical.tif",
+      "sha256": "5cd1b797fd9eebf06b25cf0082bcfec962644c97938e0a9752fe3d4de0d520ab",
+      "size_bytes": 1495651,
+      "acquired_at": "2026-10-12T19:33:20.596890+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_1997_FWI_MRI-ESM2-0_Historical.tif",
+      "url": "https://www.dropbox.com/t/yWLAXn40ZjqwjDlD",
+      "provider_filename": "ET_daily_1997_FWI_MRI-ESM2-0_Historical.tif",
+      "sha256": "c2a2227f3f0f7d3baa9b17997c56ebfb7c6df8a01de388e97989687addb88181",
+      "size_bytes": 1494665,
+      "acquired_at": "2026-10-12T19:30:33.441522+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_1998_FWI_MRI-ESM2-0_Historical.tif",
+      "url": "https://www.dropbox.com/t/yWLAXn40ZjqwjDlD",
+      "provider_filename": "ET_daily_1998_FWI_MRI-ESM2-0_Historical.tif",
+      "sha256": "723067e73f4f186e2abaf83ee1ce9411bd57e411df0a9ce36396a391b96fe545",
+      "size_bytes": 1516282,
+      "acquired_at": "2026-10-12T19:30:39.262535+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_1999_FWI_MRI-ESM2-0_Historical.tif",
+      "url": "https://www.dropbox.com/t/yWLAXn40ZjqwjDlD",
+      "provider_filename": "ET_daily_1999_FWI_MRI-ESM2-0_Historical.tif",
+      "sha256": "1dca0a0afbfb5ae4f0e6d04ca7d37c62900d67922e82174f6110b29b4cf0d4f1",
+      "size_bytes": 1496382,
+      "acquired_at": "2026-10-12T19:30:39.608535+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_2000_FWI_MRI-ESM2-0_Historical.tif",
+      "url": "https://www.dropbox.com/t/yWLAXn40ZjqwjDlD",
+      "provider_filename": "ET_daily_2000_FWI_MRI-ESM2-0_Historical.tif",
+      "sha256": "86e9025830b6bb05043566f976ce89bc5ffc8bcdb9001efdf7f4b52916fb0a3d",
+      "size_bytes": 1514452,
+      "acquired_at": "2026-10-12T19:33:23.439897+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_2001_FWI_MRI-ESM2-0_Historical.tif",
+      "url": "https://www.dropbox.com/t/yWLAXn40ZjqwjDlD",
+      "provider_filename": "ET_daily_2001_FWI_MRI-ESM2-0_Historical.tif",
+      "sha256": "465ce925ccf73bef109327dd7c921b46ea596aa287d859d86a9cd5232f06466a",
+      "size_bytes": 1513825,
+      "acquired_at": "2026-10-12T19:30:45.064547+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_2002_FWI_MRI-ESM2-0_Historical.tif",
+      "url": "https://www.dropbox.com/t/yWLAXn40ZjqwjDlD",
+      "provider_filename": "ET_daily_2002_FWI_MRI-ESM2-0_Historical.tif",
+      "sha256": "0cecde77624630183718f50c7c1f7f1c37cea04f50a25619b3987deccd6fc3e5",
+      "size_bytes": 1501122,
+      "acquired_at": "2026-10-12T19:30:48.237554+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_2003_FWI_MRI-ESM2-0_Historical.tif",
+      "url": "https://www.dropbox.com/t/yWLAXn40ZjqwjDlD",
+      "provider_filename": "ET_daily_2003_FWI_MRI-ESM2-0_Historical.tif",
+      "sha256": "944a3688975e07466004d05216f096f1dd071da70ac0ec81771867026499244d",
+      "size_bytes": 1521966,
+      "acquired_at": "2026-10-12T19:30:50.160558+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_2004_FWI_MRI-ESM2-0_Historical.tif",
+      "url": "https://www.dropbox.com/t/yWLAXn40ZjqwjDlD",
+      "provider_filename": "ET_daily_2004_FWI_MRI-ESM2-0_Historical.tif",
+      "sha256": "1ec0be5984541b49ded081a74194b57bcbd9b5d549f916fae8782b0959a10568",
+      "size_bytes": 1501320,
+      "acquired_at": "2026-10-12T19:33:20.360890+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_2005_FWI_MRI-ESM2-0_Historical.tif",
+      "url": "https://www.dropbox.com/t/yWLAXn40ZjqwjDlD",
+      "provider_filename": "ET_daily_2005_FWI_MRI-ESM2-0_Historical.tif",
+      "sha256": "afbcc336a6f0dfc0ce660e4d621afa8765eb7e31144663cd7b2fc38ac42d1674",
+      "size_bytes": 1493459,
+      "acquired_at": "2026-10-12T19:30:55.640570+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_2006_FWI_MRI-ESM2-0_Historical.tif",
+      "url": "https://www.dropbox.com/t/yWLAXn40ZjqwjDlD",
+      "provider_filename": "ET_daily_2006_FWI_MRI-ESM2-0_Historical.tif",
+      "sha256": "7cb87309cd22094092f8c5d48cd88f37e725347bcc4c1b0bc8c25e1518627cec",
+      "size_bytes": 1492917,
+      "acquired_at": "2026-10-12T19:30:58.633577+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_2007_FWI_MRI-ESM2-0_Historical.tif",
+      "url": "https://www.dropbox.com/t/yWLAXn40ZjqwjDlD",
+      "provider_filename": "ET_daily_2007_FWI_MRI-ESM2-0_Historical.tif",
+      "sha256": "aee115f2d95804a106d076620ae78d566bb72b3fc1c813cff2c749aa4a3a7aaf",
+      "size_bytes": 1502656,
+      "acquired_at": "2026-10-12T19:31:00.654581+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_2008_FWI_MRI-ESM2-0_Historical.tif",
+      "url": "https://www.dropbox.com/t/yWLAXn40ZjqwjDlD",
+      "provider_filename": "ET_daily_2008_FWI_MRI-ESM2-0_Historical.tif",
+      "sha256": "94af46cd9d66f298b511c84ddd3c1e0cce26890465e6bb88b35500e1e3e5941b",
+      "size_bytes": 1503836,
+      "acquired_at": "2026-10-12T19:33:24.956900+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_2009_FWI_MRI-ESM2-0_Historical.tif",
+      "url": "https://www.dropbox.com/t/yWLAXn40ZjqwjDlD",
+      "provider_filename": "ET_daily_2009_FWI_MRI-ESM2-0_Historical.tif",
+      "sha256": "f1baf58b4e144575b3b0a11b04851d7e5e0aac243ddbe1fe2614b3648df8c9d4",
+      "size_bytes": 1505578,
+      "acquired_at": "2026-10-12T19:31:05.760592+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_2010_FWI_MRI-ESM2-0_Historical.tif",
+      "url": "https://www.dropbox.com/t/yWLAXn40ZjqwjDlD",
+      "provider_filename": "ET_daily_2010_FWI_MRI-ESM2-0_Historical.tif",
+      "sha256": "e232c2a51c7c44ad82fd096ed85d2ae1bf7267c87e22fc9aa920c850f1a33905",
+      "size_bytes": 1518249,
+      "acquired_at": "2026-10-12T19:31:15.721614+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_2011_FWI_MRI-ESM2-0_Historical.tif",
+      "url": "https://www.dropbox.com/t/yWLAXn40ZjqwjDlD",
+      "provider_filename": "ET_daily_2011_FWI_MRI-ESM2-0_Historical.tif",
+      "sha256": "45ed5968e78a8ab41bb7c81529fd3824832138d83ead85692d229b46bb72b1bb",
+      "size_bytes": 1518999,
+      "acquired_at": "2026-10-12T19:31:22.373629+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_2012_FWI_MRI-ESM2-0_Historical.tif",
+      "url": "https://www.dropbox.com/t/yWLAXn40ZjqwjDlD",
+      "provider_filename": "ET_daily_2012_FWI_MRI-ESM2-0_Historical.tif",
+      "sha256": "33bca7a74c51b8d3482dd790a504738c5fe115bd200414b8e686e6bbe9253ca0",
+      "size_bytes": 1518479,
+      "acquired_at": "2026-10-12T19:33:41.432937+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_2013_FWI_MRI-ESM2-0_Historical.tif",
+      "url": "https://www.dropbox.com/t/yWLAXn40ZjqwjDlD",
+      "provider_filename": "ET_daily_2013_FWI_MRI-ESM2-0_Historical.tif",
+      "sha256": "31bd1f3e838c9ae8ae57d5cb4b6cd3057fd8c5df6891344917cf1cd343c2da05",
+      "size_bytes": 1498857,
+      "acquired_at": "2026-10-12T19:31:28.232642+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_2014_FWI_MRI-ESM2-0_Historical.tif",
+      "url": "https://www.dropbox.com/t/yWLAXn40ZjqwjDlD",
+      "provider_filename": "ET_daily_2014_FWI_MRI-ESM2-0_Historical.tif",
+      "sha256": "c39b38882384f5f023682ebeb53fec9cf62da5f20ddcd5418f9ca0747df481d4",
+      "size_bytes": 1507262,
+      "acquired_at": "2026-10-12T19:31:34.642656+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_2041_FWI_MRI-ESM2-0_ssp245.tif",
+      "url": "https://www.dropbox.com/t/8tb3nOWN0x7l6Hlq",
+      "provider_filename": "ET_daily_2041_FWI_MRI-ESM2-0_ssp245.tif",
+      "sha256": "4f4287b7477564c60ee3d60de2ed24d67b3c2dd9e6c9637f73365512d64cc523",
+      "size_bytes": 1499588,
+      "acquired_at": "2026-10-12T19:31:44.303677+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_2042_FWI_MRI-ESM2-0_ssp245.tif",
+      "url": "https://www.dropbox.com/t/8tb3nOWN0x7l6Hlq",
+      "provider_filename": "ET_daily_2042_FWI_MRI-ESM2-0_ssp245.tif",
+      "sha256": "bf5a389236538cd32d0f5986991f01bb313f5c95366b66726f2e074919fc22b2",
+      "size_bytes": 1518171,
+      "acquired_at": "2026-10-12T19:31:39.583667+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_2043_FWI_MRI-ESM2-0_ssp245.tif",
+      "url": "https://www.dropbox.com/t/8tb3nOWN0x7l6Hlq",
+      "provider_filename": "ET_daily_2043_FWI_MRI-ESM2-0_ssp245.tif",
+      "sha256": "0dd1d5276647f8a656d4afd1c6fa280fb69fc9b7626e5636927d7dff354e6423",
+      "size_bytes": 1506074,
+      "acquired_at": "2026-10-12T19:31:42.895674+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_2044_FWI_MRI-ESM2-0_ssp245.tif",
+      "url": "https://www.dropbox.com/t/8tb3nOWN0x7l6Hlq",
+      "provider_filename": "ET_daily_2044_FWI_MRI-ESM2-0_ssp245.tif",
+      "sha256": "b3cf7ea7ed07c9e31448d4dac411647a8304eab10f681a4ac473aca6631334b1",
+      "size_bytes": 1510401,
+      "acquired_at": "2026-10-12T19:33:33.986920+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_2045_FWI_MRI-ESM2-0_ssp245.tif",
+      "url": "https://www.dropbox.com/t/8tb3nOWN0x7l6Hlq",
+      "provider_filename": "ET_daily_2045_FWI_MRI-ESM2-0_ssp245.tif",
+      "sha256": "faff946e9adaf063e56888d95539e078d8de55238c03151ac683f83e39de3205",
+      "size_bytes": 1490118,
+      "acquired_at": "2026-10-12T19:31:47.906685+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_2046_FWI_MRI-ESM2-0_ssp245.tif",
+      "url": "https://www.dropbox.com/t/8tb3nOWN0x7l6Hlq",
+      "provider_filename": "ET_daily_2046_FWI_MRI-ESM2-0_ssp245.tif",
+      "sha256": "41b0ec834e1596e376642ad1df7e19565fd7509c004b44b26c5ce6a0e2332433",
+      "size_bytes": 1476115,
+      "acquired_at": "2026-10-12T19:31:52.423695+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_2047_FWI_MRI-ESM2-0_ssp245.tif",
+      "url": "https://www.dropbox.com/t/8tb3nOWN0x7l6Hlq",
+      "provider_filename": "ET_daily_2047_FWI_MRI-ESM2-0_ssp245.tif",
+      "sha256": "9553290466374c4f984aad8d34c8fcc00632f4124d7021ee0bc2ca289b7a99a5",
+      "size_bytes": 1511515,
+      "acquired_at": "2026-10-12T19:31:58.104707+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_2048_FWI_MRI-ESM2-0_ssp245.tif",
+      "url": "https://www.dropbox.com/t/8tb3nOWN0x7l6Hlq",
+      "provider_filename": "ET_daily_2048_FWI_MRI-ESM2-0_ssp245.tif",
+      "sha256": "d1ba7ef6bc6870b24df3339b8c9f21e6575660d347c9c7594c4e35304a7e8342",
+      "size_bytes": 1509541,
+      "acquired_at": "2026-10-12T19:33:35.719924+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_2049_FWI_MRI-ESM2-0_ssp245.tif",
+      "url": "https://www.dropbox.com/t/8tb3nOWN0x7l6Hlq",
+      "provider_filename": "ET_daily_2049_FWI_MRI-ESM2-0_ssp245.tif",
+      "sha256": "37c4c03e44348912846442e8cbd356aaedcb6c7e70ae85b252529e61c02fbcb5",
+      "size_bytes": 1473149,
+      "acquired_at": "2026-10-12T19:32:03.671720+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_2050_FWI_MRI-ESM2-0_ssp245.tif",
+      "url": "https://www.dropbox.com/t/8tb3nOWN0x7l6Hlq",
+      "provider_filename": "ET_daily_2050_FWI_MRI-ESM2-0_ssp245.tif",
+      "sha256": "54b3a51968f827d3d2c32c16c2207cf28c0e62ffcfa50c748734ea5a11508e30",
+      "size_bytes": 1503341,
+      "acquired_at": "2026-10-12T19:28:17.957230+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_2051_FWI_MRI-ESM2-0_ssp245.tif",
+      "url": "https://www.dropbox.com/t/8tb3nOWN0x7l6Hlq",
+      "provider_filename": "ET_daily_2051_FWI_MRI-ESM2-0_ssp245.tif",
+      "sha256": "98cfaf685b07c11e8ee0e7e216e4d5972c6e243d571efa247763b68a342eeaed",
+      "size_bytes": 1516787,
+      "acquired_at": "2026-10-12T19:32:08.614731+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_2052_FWI_MRI-ESM2-0_ssp245.tif",
+      "url": "https://www.dropbox.com/t/8tb3nOWN0x7l6Hlq",
+      "provider_filename": "ET_daily_2052_FWI_MRI-ESM2-0_ssp245.tif",
+      "sha256": "906b21d6f6b0fc74259dcda25b0b608a8309936f40ef42dd806c7bd2a80787aa",
+      "size_bytes": 1493282,
+      "acquired_at": "2026-10-12T19:33:42.822940+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_2053_FWI_MRI-ESM2-0_ssp245.tif",
+      "url": "https://www.dropbox.com/t/8tb3nOWN0x7l6Hlq",
+      "provider_filename": "ET_daily_2053_FWI_MRI-ESM2-0_ssp245.tif",
+      "sha256": "2e34a7881c3180c1ef4e0f2cfe9c345d6ef28b16425b393333557a76bece6e4a",
+      "size_bytes": 1499726,
+      "acquired_at": "2026-10-12T19:32:13.802742+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_2054_FWI_MRI-ESM2-0_ssp245.tif",
+      "url": "https://www.dropbox.com/t/8tb3nOWN0x7l6Hlq",
+      "provider_filename": "ET_daily_2054_FWI_MRI-ESM2-0_ssp245.tif",
+      "sha256": "3bb5b678059e86cbda42e8ed6419020cd1c8ce8484d60dd9be1697e0779b73d8",
+      "size_bytes": 1496532,
+      "acquired_at": "2026-10-12T19:32:19.388849+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_2055_FWI_MRI-ESM2-0_ssp245.tif",
+      "url": "https://www.dropbox.com/t/8tb3nOWN0x7l6Hlq",
+      "provider_filename": "ET_daily_2055_FWI_MRI-ESM2-0_ssp245.tif",
+      "sha256": "bbb8345063c29ebd621b2fe80ff09e823f52ec7b3c8400f347ca0cdfe08967de",
+      "size_bytes": 1490401,
+      "acquired_at": "2026-10-12T19:32:20.403075+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_2056_FWI_MRI-ESM2-0_ssp245.tif",
+      "url": "https://www.dropbox.com/t/8tb3nOWN0x7l6Hlq",
+      "provider_filename": "ET_daily_2056_FWI_MRI-ESM2-0_ssp245.tif",
+      "sha256": "467ea33d39bc7863f0a7a3a7bb32682d7ee6b5ac67bba4218fdfe99968cb7e03",
+      "size_bytes": 1502361,
+      "acquired_at": "2026-10-12T19:33:40.099934+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_2057_FWI_MRI-ESM2-0_ssp245.tif",
+      "url": "https://www.dropbox.com/t/8tb3nOWN0x7l6Hlq",
+      "provider_filename": "ET_daily_2057_FWI_MRI-ESM2-0_ssp245.tif",
+      "sha256": "74d486ee143a84bc687033bac5d08341916bf75705bb82bf9de38b9763eaee56",
+      "size_bytes": 1514526,
+      "acquired_at": "2026-10-12T19:32:25.943769+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_2058_FWI_MRI-ESM2-0_ssp245.tif",
+      "url": "https://www.dropbox.com/t/8tb3nOWN0x7l6Hlq",
+      "provider_filename": "ET_daily_2058_FWI_MRI-ESM2-0_ssp245.tif",
+      "sha256": "1cf69e30915e308a23d3639d1f0909f204dbc17552443a81665717a819c53cdc",
+      "size_bytes": 1508713,
+      "acquired_at": "2026-10-12T19:32:36.102792+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_2059_FWI_MRI-ESM2-0_ssp245.tif",
+      "url": "https://www.dropbox.com/t/8tb3nOWN0x7l6Hlq",
+      "provider_filename": "ET_daily_2059_FWI_MRI-ESM2-0_ssp245.tif",
+      "sha256": "8aa797b3a3d3e3cac75dcf6c912a732468dbdb0beb0fc9fb4e18633831a2d0ab",
+      "size_bytes": 1496109,
+      "acquired_at": "2026-10-12T19:32:38.992798+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/galicia-bbox-ET_daily_2060_FWI_MRI-ESM2-0_ssp245.tif",
+      "url": "https://www.dropbox.com/t/8tb3nOWN0x7l6Hlq",
+      "provider_filename": "ET_daily_2060_FWI_MRI-ESM2-0_ssp245.tif",
+      "sha256": "8c257a3539c41d137065c7ff57381276ca9ffb57a6a806ef5025636289177f94",
+      "size_bytes": 1498129,
+      "acquired_at": "2026-10-12T19:33:45.624946+00:00",
+      "processing": "Native-grid HTTP range crop, all daily bands; 365 or366 followingactualsourcecount, no CRS assigned, no resampling. Baseline1995\u20132014/future2041\u20132060; MRI-ESM2-0 only."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/annual-file-inventory.json",
+      "url": null,
+      "sha256": "8f4375606660343a0207dfaf48474dac0503ca745d116dcad66ba22181334d41",
+      "size_bytes": 8643,
+      "acquired_at": "2026-10-12T19:33:45.643341+00:00",
+      "processing": "Locally generated acquisition inventory or crop metadata."
+    },
+    {
+      "path": "data/raw/public/galicia-fire9km-access/annual-crop-metadata.json",
+      "url": null,
+      "sha256": "1ae5a4cd5e610f1921f35d26b6277c41de48f9211a2493e1eebb8e8cdd9c4bbb",
+      "size_bytes": 45163,
+      "acquired_at": "2026-10-12T19:33:45.643455+00:00",
+      "processing": "Locally generated acquisition inventory or crop metadata."
+    }
+  ]
+}

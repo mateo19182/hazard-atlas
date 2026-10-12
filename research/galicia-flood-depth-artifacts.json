@@ -1,0 +1,93 @@
+{
+  "artifacts": [
+    {
+      "path": "data/raw/public/galicia-flood-depth-audit/README.txt",
+      "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/CEMS-EFAS/flood_hazard/README.txt",
+      "sha256": "ff1ec167e76d6b86a71292ce5b34a49134c869454cfc106b945726011e4f99cf",
+      "size_bytes": 4456,
+      "acquired_at": "2026-10-12T19:22:07.782735+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-flood-depth-audit/CHANGELOG.txt",
+      "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/CEMS-EFAS/flood_hazard/CHANGELOG.txt",
+      "sha256": "15079e4104eca0105b4b5ff173e31300734364a48a01967ea3da68f38c941e9e",
+      "size_bytes": 2690,
+      "acquired_at": "2026-10-12T19:22:08.463596+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-flood-depth-audit/copyright.txt",
+      "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/CEMS-EFAS/flood_hazard/copyright.txt",
+      "sha256": "f20723519a580fb35b3499870f0b1baea54f483195105416e547f0014f1610d2",
+      "size_bytes": 540,
+      "acquired_at": "2026-10-12T19:22:14.393306+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-flood-depth-audit/galicia-bbox-Europe_RP100_filled_depth.tif",
+      "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/CEMS-EFAS/flood_hazard/Europe_RP100_filled_depth.tif",
+      "sha256": "3924d53e0492fb4c2c4bebddf2c886ea1ed10059947733d7faa3f411fdcabfee",
+      "size_bytes": 461402,
+      "acquired_at": "2026-10-12T19:22:16.059853+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-flood-depth-audit/galicia-bbox-Europe_permanent_water_bodies.tif",
+      "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/CEMS-EFAS/flood_hazard/Europe_permanent_water_bodies.tif",
+      "sha256": "a61bfdec4da5c1ca29ef3a1b0f4dbbbaff10e7681264f003b4410412d80e3238",
+      "size_bytes": 169482,
+      "acquired_at": "2026-10-12T19:22:17.130760+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-flood-depth-audit/galicia-bbox-Europe_spurious_depth_areas.tif",
+      "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/CEMS-EFAS/flood_hazard/Europe_spurious_depth_areas.tif",
+      "sha256": "fe6e30675f3a0a01de3491aacab1df282a37549c07776fe983541f200d004f7b",
+      "size_bytes": 163647,
+      "acquired_at": "2026-10-12T19:22:18.206343+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-flood-depth-audit/jrc-access-check.json",
+      "url": null,
+      "sha256": "f0fd14d7c005f2d1f9f882ed510ff1eb73688e1ba3ae6b5d119c208819bcf97a",
+      "size_bytes": 1800,
+      "acquired_at": "2026-10-12T19:22:18.221349+00:00"
+    },
+    {
+      "path": "data/raw/public/galicia-flood-depth-audit/wflow_flood.py",
+      "url": "https://raw.githubusercontent.com/edwinkost/wflow/master/wflow-py/Scripts/wflow_flood.py",
+      "sha256": "91b5d1d84fe7c275d0cb3a9d6929e6800c81952f8a452fefe2f5b262e3b24cdc",
+      "size_bytes": 46405,
+      "acquired_at": "2026-10-12T19:24:58.780079+00:00",
+      "processing": "Primary modeller source-code snapshot; exact correspondence to2020release unproven"
+    },
+    {
+      "path": "data/raw/public/galicia-flood-depth-audit/wflow_flood_lib.py",
+      "url": "https://raw.githubusercontent.com/edwinkost/wflow/master/wflow-py/Scripts/wflow_flood_lib.py",
+      "sha256": "b978da24f456f006de68056d36e501979835b1357c72e29fee6b075eec0f245e",
+      "size_bytes": 27915,
+      "acquired_at": "2026-10-12T19:24:58.780201+00:00",
+      "processing": "Primary modeller source-code snapshot; exact correspondence to2020release unproven"
+    },
+    {
+      "path": "data/raw/public/galicia-flood-depth-audit/downscaling.py",
+      "url": "https://raw.githubusercontent.com/edwinkost/extreme_value_analysis/master/downscaling_with_30min_option.py",
+      "sha256": "9308215704062fec2d51b3ffbf059a509c0097e4bdac0158b77b832423c74015",
+      "size_bytes": 26835,
+      "acquired_at": "2026-10-12T19:24:58.780303+00:00",
+      "processing": "Primary modeller source-code snapshot; exact correspondence to2020release unproven"
+    },
+    {
+      "path": "data/raw/public/galicia-flood-depth-audit/merge.py",
+      "url": "https://raw.githubusercontent.com/edwinkost/extreme_value_analysis/master/7_merging_downscaled_maps_with_masking_out_and_following_name_convention.py",
+      "sha256": "af18585150ea0d3c801feef18bcb737d8d61c2ffab0ae4ce66a31c1b21a5f8d0",
+      "size_bytes": 20576,
+      "acquired_at": "2026-10-12T19:24:58.780397+00:00",
+      "processing": "Primary modeller source-code snapshot; exact correspondence to2020release unproven"
+    },
+    {
+      "path": "data/raw/public/galicia-flood-depth-audit/depth-statistics.json",
+      "url": null,
+      "sha256": "d9511c37faccfe5c696383a579a2320ba106279b4d82d15ca92bb8187cb73c1a",
+      "size_bytes": 4259,
+      "acquired_at": "2026-10-12T19:24:58.780472+00:00",
+      "processing": "Locally generated diagnostic"
+    }
+  ]
+}

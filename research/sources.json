@@ -930,5 +930,68 @@
     "review_status": "see galicia-flood-access.md",
     "acquisition_status": "local_artifact_preserved",
     "rights_status": "see original source terms"
+  },
+  {
+    "id": "wflow-flood-code",
+    "title": "Aqueduct modeller source snapshot: wflow_flood.py",
+    "url": "https://raw.githubusercontent.com/edwinkost/wflow/master/wflow-py/Scripts/wflow_flood.py",
+    "kind": "code",
+    "review_status": "examined for possible repeated-depth mechanisms; exact 2020 generation version unproven",
+    "acquisition_status": "snapshot_downloaded",
+    "rights_status": "see upstream source license"
+  },
+  {
+    "id": "wflow-flood-library",
+    "title": "Aqueduct modeller source snapshot: wflow_flood_lib.py",
+    "url": "https://raw.githubusercontent.com/edwinkost/wflow/master/wflow-py/Scripts/wflow_flood_lib.py",
+    "kind": "code",
+    "review_status": "examined for possible repeated-depth mechanisms; exact 2020 generation version unproven",
+    "acquisition_status": "snapshot_downloaded",
+    "rights_status": "see upstream source license"
+  },
+  {
+    "id": "aqueduct-modeller-downscaling-code",
+    "title": "Aqueduct modeller source snapshot: downscaling.py",
+    "url": "https://raw.githubusercontent.com/edwinkost/extreme_value_analysis/master/downscaling_with_30min_option.py",
+    "kind": "code",
+    "review_status": "examined for possible repeated-depth mechanisms; exact 2020 generation version unproven",
+    "acquisition_status": "snapshot_downloaded",
+    "rights_status": "see upstream source license"
+  },
+  {
+    "id": "aqueduct-modeller-merge-code",
+    "title": "Aqueduct modeller source snapshot: merge.py",
+    "url": "https://raw.githubusercontent.com/edwinkost/extreme_value_analysis/master/7_merging_downscaled_maps_with_masking_out_and_following_name_convention.py",
+    "kind": "code",
+    "review_status": "examined for possible repeated-depth mechanisms; exact 2020 generation version unproven",
+    "acquisition_status": "snapshot_downloaded",
+    "rights_status": "see upstream source license"
+  },
+  {
+    "id": "fire-res-future-fwi",
+    "title": "FIRE-RES portfolio: European summer FWI projections",
+    "url": "https://doi.org/10.5281/zenodo.11083641",
+    "kind": "dataset",
+    "review_status": "seven ensemble-mean NetCDFs acquired; native grid approximately 0.5 degrees, model membership unresolved",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "CC BY 4.0"
+  },
+  {
+    "id": "snczi-galicia-t100-api",
+    "title": "SNCZI T100 fluvial positive extents, Galicia bbox extraction",
+    "url": "https://gis.miteco.gob.es/geoserver/ogc/features/v1/collections/agua:Zi_laminas_q100",
+    "kind": "dataset",
+    "review_status": "819 bbox features acquired and feature IDs checked; official study-domain coverage remains unknown",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "Free reuse with MITECO attribution; see SNCZI download page"
+  },
+  {
+    "id": "hetzer-europe-fwi-2026",
+    "title": "Hetzer European FWI from downscaled bias-corrected CMIP6, version 1.1",
+    "url": "https://doi.org/10.5281/zenodo.19792063",
+    "kind": "dataset",
+    "review_status": "Forty Galicia daily raster crops acquired for MRI-ESM2-0: historical1995–2014 and SSP2-4.5 2041–2060; native geographic grid and leap-year bands inspected",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "CC BY 4.0"
   }
 ]

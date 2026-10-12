@@ -45,7 +45,7 @@ Dry-spell length and heavy rainfall also have different spatial patterns. Wetter
 
 The river source contains repeated positive depths of only around 1–2 cm in some coastal locations. Counting all positive values can produce very large footprint percentages. The report includes the 0.1 m comparison to expose that sensitivity. For example, cells E291_N245 and E293_N243 change from 100% mapped future footprint at any positive depth to 0% above 0.1 m. That is a threshold effect in this model, not evidence that those places are safe. Source artefacts, coastal treatment and permanent water need closer investigation before using this layer to identify lower-hazard places.
 
-These observations are exploratory. There is no combined ranking. Fire, wind, landslides, seismic hazards and a complete coastal-flood domain remain outside the computed pilot. The 1971–2000 baseline is historical, not a claim about current observed conditions.
+These observations are exploratory. There is no combined ranking. Wind, landslides, seismic hazards and a complete coastal-flood domain remain outside the computed pilot. The fire-weather extension is described below. The 1971–2000 baseline is historical, not a claim about current observed conditions.
 
 ## Reproduce
 
@@ -57,3 +57,33 @@ These observations are exploratory. There is no combined ranking. Fire, wind, la
 The first pass verified grid-area conservation, coordinate alignment, data coverage, identical river masks, source hashes and complete model counts. The stricter flood-depth threshold never increases footprint, and every future median lies between its reported model percentiles. All report selectors and cell interactions were exercised in a headless browser without JavaScript errors. An independent review found the threshold issue above and prompted clearer river-change units and baseline wording.
 
 Source descriptions and links are in [climate definitions](galicia-indicator-definitions.md) and [flood access findings](galicia-flood-access.md). Boundary source: [Eurostat GISCO NUTS 2024](https://gisco-services.ec.europa.eu/distribution/v2/nuts/nuts-2024-units.html).
+
+
+## Flood and fire-weather extension
+
+The private [GitHub repository](https://github.com/mateo19182/hazard-atlas) now stores the scripts, research and source manifests. The [live report on Tailscale](https://m19182.tail5196fa.ts.net/galicia) includes the new comparisons. Raw and generated data remain local and excluded from Git; the GitHub push is not a backup of these files.
+
+The [official flood comparison](galicia-flood-validation.md) obtains SNCZI T100 fluvial polygons through MITECO's OGC API, preserving study attributes and checking complete pagination. It compares historical Aqueduct footprints at depth thresholds of 0, 0.1, 0.5 and 1 m. The report shows official positive extent, Aqueduct footprint and the fraction of covered official positives captured. A fixed 0–100% scale is used for Aqueduct fractions across thresholds. This is a positive-extent comparison, not an overall accuracy score: SNCZI study-domain coverage remains unknown. Planning-cycle dates are not future climate scenarios.
+
+The [depth audit](galicia-flood-depth-audit.md) confirms that centimetre-scale depths occur in Aqueduct's original source, with no scaling or cropping error. Approximately 64% of future positive native pixels in the pixel-centre Galicia mask are no deeper than 10 cm. This is a diagnostic pixel count, not an area-weighted hazard estimate. JRC flood depth and water/caution masks provide another independent comparison. The precise cause of the shallow values remains unresolved.
+
+The [fire-weather research](galicia-fire-weather.md) adds FIRE-RES June–August ensemble-mean FWI for 1995–2014 and 2041–2060, under SSP1-2.6, SSP2-4.5 and SSP5-8.5. Its approximately 0.5° cells are shown at native resolution in a separate panel. They cannot distinguish neighbouring 10 km cells. The NetCDFs do not identify their model members; differences between scenario means cannot be interpreted as isolated effects of emissions. FWI measures meteorological conditions favourable to fire, not ignition probability or burned area. Summer-only averages do not cover Galicia's full fire season.
+
+Additional acquisition and processing commands:
+
+- `uv run research/galicia-flood-validate.py` acquires official polygons and calculates the positive-extent comparison using the existing grid.
+- `uv run --with rasterio python research/galicia-jrc-acquire.py` acquires independent JRC flood depths and masks.
+- `uv run --with rasterio python research/galicia-flood-depth-check.py` runs source-depth and overlap diagnostics.
+- `python scripts/acquire_fire_weather.py` acquires the coarse FIRE-RES summaries using bounded archive reads.
+- After the optional comparisons have been generated, rerun `uv run scripts/build_galicia.py` to embed them in the self-contained report. Grid hashes must match; regenerate optional comparisons if the boundary or grid changes.
+
+
+### Matched fire-weather climatologies on the 10 km grid
+
+The finer Hetzer/FirEUrisk source now supplies an initial single-model comparison for MRI-ESM2-0 under SSP2-4.5: 1995–2014 versus 2041–2060. Forty bounded annual crops contain 14,610 daily bands in total, retaining leap days. Native resolution is 0.0703135°, approximately 6 by 8 km in Galicia. The source TIFFs have no CRS tag; interpreting their documented longitude/latitude grid as EPSG:4326 is recorded explicitly.
+
+Two indicators enter the main 10 km selector: annual mean FWI and annual days with FWI strictly greater than 30. The threshold is applied to each native pixel and day before averaging years and spatial overlaps. Both periods must have every daily value on the same native pixel, and each target cell must meet 80% shared valid-area coverage. This leaves 326 mapped cells. Fractional days are spatial and climatological averages, not fractional observed fire events. This is an all-season indicator, distinct from the coarse June–August source above.
+
+Across valid source area in the retained target cells, annual mean FWI increases from 5.09 to 6.06 and annual days above 30 from 3.15 to 3.93. These summarize one model, not a consensus forecast. No model percentiles or spread are reported. Exact values, windows, hashes and calendar checks are in `data/derived/galicia/fire-highres-provenance.json`.
+
+To reproduce, install Playwright Chromium once with `uv run --with playwright playwright install chromium --only-shell`, then run `uv run research/galicia-fire9km-acquire.py`, `uv run scripts/build_fire_highres.py`, and finally `uv run scripts/build_galicia.py`. The acquisition script uses the public provider interface to obtain bounded range reads; temporary session headers and signed download links are kept outside the repository. Public transfer links may expire; the versioned source record links to the current provider README.
