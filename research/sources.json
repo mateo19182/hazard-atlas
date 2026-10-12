@@ -398,5 +398,65 @@
     "notes": "Comfort project background, superseded.",
     "acquisition_status": "not_downloaded",
     "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "white-2025-review",
+    "title": "Towards multi-hazard and multi-risk indicators",
+    "url": "https://nhess.copernicus.org/articles/25/4263/2025/",
+    "kind": "paper",
+    "review_status": "initial research pass",
+    "notes": "Abstract, review scope and conclusions inspected; 192 publications. Full detailed review pending.",
+    "acquisition_status": "snapshot_downloaded",
+    "rights_status": "see source terms"
+  },
+  {
+    "id": "lund-2021-review",
+    "title": "Review of multi-hazard indices for a Swedish context",
+    "url": "https://www.lunduniversity.lu.se/publication/7f333041-7b9b-4b80-87ee-ccf2b9d6a2f6",
+    "kind": "paper",
+    "review_status": "initial research pass",
+    "notes": "Institutional summary read; full report pending. EXTREME-INDEX precedent.",
+    "acquisition_status": "snapshot_downloaded",
+    "rights_status": "see source terms"
+  },
+  {
+    "id": "jrc-europe-flood",
+    "title": "European river flood hazard data catalogue",
+    "url": "https://data.jrc.ec.europa.eu/dataset/1d128b6c-a4ee-4858-9e34-6210707f3c81",
+    "kind": "dataset",
+    "review_status": "initial research pass",
+    "notes": "Landing page inspected. Raster not acquired. CC BY 4.0 stated. Catchments >150 km2.",
+    "acquisition_status": "snapshot_downloaded",
+    "rights_status": "see source terms"
+  },
+  {
+    "id": "snczi-downloads",
+    "title": "SNCZI inundation extent downloads",
+    "url": "https://www.miteco.gob.es/es/cartografia-y-sig/ide/descargas/agua/zi-lamina.html",
+    "kind": "dataset",
+    "review_status": "initial research pass",
+    "notes": "Download listings and terms inspected. Shapefiles not acquired. Attribution required; partial river coverage.",
+    "acquisition_status": "snapshot_downloaded",
+    "rights_status": "see source terms"
+  },
+  {
+    "id": "jrc-flood-readme",
+    "title": "European flood v3.1.1 README",
+    "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/CEMS-EFAS/flood_hazard/README.txt",
+    "kind": "documentation",
+    "review_status": "initial research pass",
+    "notes": "Read. 3 arc seconds; water depth; permanent water and spurious depth masks.",
+    "acquisition_status": "snapshot_downloaded",
+    "rights_status": "see source terms"
+  },
+  {
+    "id": "jrc-flood-changelog",
+    "title": "European flood version history",
+    "url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/CEMS-EFAS/flood_hazard/CHANGELOG.txt",
+    "kind": "documentation",
+    "review_status": "initial research pass",
+    "notes": "Read. March 2026 v3.1.1 corrects modelling and DEM artefacts.",
+    "acquisition_status": "snapshot_downloaded",
+    "rights_status": "see source terms"
   }
 ]

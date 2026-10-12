@@ -8,7 +8,9 @@ import json
 ROOT = Path(__file__).resolve().parents[1]
 SELECTED = {'thinkhazard', 'thinkhazard-classification', 'thinkhazard-data',
             'unicef-mhi-readme', 'unicef-mhi-code', 'unicef-mhi-inputs',
-            'antofie-2025', 'espon-titan', 'inform', 'ericc'}
+            'antofie-2025', 'espon-titan', 'inform', 'ericc',
+            'white-2025-review', 'lund-2021-review', 'jrc-europe-flood',
+            'snczi-downloads', 'jrc-flood-readme', 'jrc-flood-changelog'}
 
 def main():
     sources = json.loads((ROOT / 'research/sources.json').read_text())
@@ -28,7 +30,7 @@ def main():
                 final_url = response.url
             if not body or len(body) > 10_000_000:
                 raise ValueError('Empty response or exceeds 10 MB snapshot limit')
-            suffix = '.ipynb' if source['url'].endswith('.ipynb') else '.js' if source['url'].endswith('.js') else '.md' if source['url'].endswith('.md') else '.html'
+            suffix = '.ipynb' if source['url'].endswith('.ipynb') else '.js' if source['url'].endswith('.js') else '.md' if source['url'].endswith('.md') else '.txt' if source['url'].endswith('.txt') else '.html'
             digest = hashlib.sha256(body).hexdigest()
             dest = ROOT / 'data/raw/public' / (source['id'] + '-' + digest[:12] + suffix)
             dest.parent.mkdir(parents=True, exist_ok=True)

@@ -31,3 +31,7 @@ The name hazard-atlas, a regular grid, exact hazard families, a composite formul
 ## Work completed before repository creation
 
 Targeted web research, reading the supplied Springer chapter, inspecting UNICEF MHI code, reviewing ThinkHazard documentation and comparing several existing indices. No hazard rasters were processed, scoring experiment run or map validated. Search-result-only leads require source verification.
+
+## Research phase begins
+
+The user asked to start work, keep the approach simple, open and creative, and ask about relevant decisions. The first research pass checks a flood-source comparison and adds two review leads. Present-day versus future conditions remains an open question. No final index or implementation stack is selected.

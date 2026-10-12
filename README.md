@@ -18,6 +18,8 @@ We have not established scientific novelty. Multi-hazard indices and sensitivity
 
 ## Start here
 
+- [First exploration](research/first-exploration.md): a small proposed comparison, new reading leads and verified data-access routes.
+
 - [Research brief](research/brief.md): current direction, possible experiments and open decisions.
 - [Conversation backfill](research/history.md): how the project developed and what the user selected.
 - [Reading notes](research/reading-notes.md): findings and critiques from the papers and implementations reviewed.

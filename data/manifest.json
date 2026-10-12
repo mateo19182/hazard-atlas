@@ -158,5 +158,83 @@
     "content_type": "text/html; charset=UTF-8",
     "redistribution": "not cleared",
     "content_validation": "retrieved; semantic completeness not verified"
+  },
+  {
+    "source_id": "white-2025-review",
+    "path": "data/raw/public/white-2025-review-dc2f49c0ed7e.html",
+    "sha256": "dc2f49c0ed7ede2c40f1b1c8199da62bb1313cc9fd691824fd4536f07c86534c",
+    "bytes": 314100,
+    "acquired_at": "2026-10-12T08:15:29.735934+00:00",
+    "method": "HTTP snapshot",
+    "requested_url": "https://nhess.copernicus.org/articles/25/4263/2025/",
+    "resolved_url": "https://nhess.copernicus.org/articles/25/4263/2025/",
+    "content_type": "text/html",
+    "redistribution": "not cleared",
+    "content_validation": "retrieved; semantic completeness not verified"
+  },
+  {
+    "source_id": "lund-2021-review",
+    "path": "data/raw/public/lund-2021-review-26d6747463a8.html",
+    "sha256": "26d6747463a801a91f79fb32230e2478d786b72951f763ed2e74b2d0544c8644",
+    "bytes": 71290,
+    "acquired_at": "2026-10-12T08:15:30.362141+00:00",
+    "method": "HTTP snapshot",
+    "requested_url": "https://www.lunduniversity.lu.se/publication/7f333041-7b9b-4b80-87ee-ccf2b9d6a2f6",
+    "resolved_url": "https://www.lunduniversity.lu.se/publication/7f333041-7b9b-4b80-87ee-ccf2b9d6a2f6",
+    "content_type": "text/html; charset=UTF-8",
+    "redistribution": "not cleared",
+    "content_validation": "retrieved; semantic completeness not verified"
+  },
+  {
+    "source_id": "jrc-europe-flood",
+    "path": "data/raw/public/jrc-europe-flood-2c29f14fdf28.html",
+    "sha256": "2c29f14fdf2879c250f963193406ae306d34f3a6dc7522733de3d1fe9e707579",
+    "bytes": 76851,
+    "acquired_at": "2026-10-12T08:15:30.840034+00:00",
+    "method": "HTTP snapshot",
+    "requested_url": "https://data.jrc.ec.europa.eu/dataset/1d128b6c-a4ee-4858-9e34-6210707f3c81",
+    "resolved_url": "https://data.jrc.ec.europa.eu/dataset/1d128b6c-a4ee-4858-9e34-6210707f3c81",
+    "content_type": "text/html; charset=utf-8",
+    "redistribution": "not cleared",
+    "content_validation": "retrieved; semantic completeness not verified"
+  },
+  {
+    "source_id": "snczi-downloads",
+    "path": "data/raw/public/snczi-downloads-636911cfbf6e.html",
+    "sha256": "636911cfbf6ecc6c94fc0b273346fe5de9df073a2f958dd8f3f722be230112ef",
+    "bytes": 96852,
+    "acquired_at": "2026-10-12T08:15:31.139832+00:00",
+    "method": "HTTP snapshot",
+    "requested_url": "https://www.miteco.gob.es/es/cartografia-y-sig/ide/descargas/agua/zi-lamina.html",
+    "resolved_url": "https://www.miteco.gob.es/es/cartografia-y-sig/ide/descargas/agua/zi-lamina.html",
+    "content_type": "text/html; charset=UTF-8",
+    "redistribution": "not cleared",
+    "content_validation": "retrieved; semantic completeness not verified"
+  },
+  {
+    "source_id": "jrc-flood-readme",
+    "path": "data/raw/public/jrc-flood-readme-ff1ec167e76d.txt",
+    "sha256": "ff1ec167e76d6b86a71292ce5b34a49134c869454cfc106b945726011e4f99cf",
+    "bytes": 4456,
+    "acquired_at": "2026-10-12T08:15:31.448420+00:00",
+    "method": "HTTP snapshot",
+    "requested_url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/CEMS-EFAS/flood_hazard/README.txt",
+    "resolved_url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/CEMS-EFAS/flood_hazard/README.txt",
+    "content_type": "text/plain; charset=utf-8",
+    "redistribution": "not cleared",
+    "content_validation": "retrieved; semantic completeness not verified"
+  },
+  {
+    "source_id": "jrc-flood-changelog",
+    "path": "data/raw/public/jrc-flood-changelog-15079e4104ec.txt",
+    "sha256": "15079e4104eca0105b4b5ff173e31300734364a48a01967ea3da68f38c941e9e",
+    "bytes": 2690,
+    "acquired_at": "2026-10-12T08:15:31.739375+00:00",
+    "method": "HTTP snapshot",
+    "requested_url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/CEMS-EFAS/flood_hazard/CHANGELOG.txt",
+    "resolved_url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/CEMS-EFAS/flood_hazard/CHANGELOG.txt",
+    "content_type": "text/plain; charset=utf-8",
+    "redistribution": "not cleared",
+    "content_validation": "retrieved; semantic completeness not verified"
   }
 ]
