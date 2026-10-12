@@ -2,6 +2,8 @@
 
 ## Current direction
 
+The first computed pilot is now Galicia, using 10 km cells as a working scale. Spain-wide and worldwide coverage remain later possibilities. See [the pilot](galicia-pilot.md) for actual inputs, results and limitations.
+
 Find relatively lower-hazard places and investigate disagreement between indicators. Start with a Spain-wide overview, including islands and autonomous cities where coverage permits. Treat worldwide expansion as a design consideration rather than a promised release.
 
 Future hazards are now the main interest, with present-day conditions as a baseline. The user selected around 2050 as the main horizon, with present-day conditions alongside it. Exact dataset windows must stay visible. Research should explore a Spain-wide comparison across hazards while using focused source audits to check whether the larger idea is credible.

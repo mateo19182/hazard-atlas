@@ -41,3 +41,7 @@ The user asked to start work, keep the approach simple, open and creative, and a
 The user found the initial flood-only exercise too limited as a project direction. Future hazards are the main interest, with present-day conditions relevant as a baseline. They explicitly requested parallel subagents. Research now covers present flood sources, future flood projections, and comparable future hazards and prior work. The horizon question remains open.
 
 The user subsequently selected around 2050, with a present-day baseline. This supersedes the pending horizon question above.
+
+## Galicia pilot
+
+The user narrowed the first computed experiment to Galicia, with roughly 10 km resolution, to see what data and comparisons are possible. The 2050 focus remains. We acquired climate and river-flood inputs, produced separate indicator maps, and kept an incomplete coastal sample outside regional comparisons.

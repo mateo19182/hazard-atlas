@@ -768,5 +768,167 @@
     "notes": "Reference from parallel flood audit",
     "acquisition_status": "not_downloaded",
     "rights_status": "see source terms"
+  },
+  {
+    "id": "galicia-boundary",
+    "title": "Galicia GISCO NUTS 2024 boundary",
+    "url": "https://gisco-services.ec.europa.eu/distribution/v2/nuts/distribution/ES11-region-01m-4326-2024.geojson",
+    "kind": "dataset",
+    "review_status": "acquired for Galicia pilot",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "see original source and embedded metadata"
+  },
+  {
+    "id": "adaptecca-definitions-2025",
+    "title": "AdapteCCa data description v7 June 2025",
+    "url": "https://escenarios.adaptecca.es/doc/datos.pdf?v=202506",
+    "kind": "documentation",
+    "review_status": "acquired for Galicia pilot",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "see original source and embedded metadata"
+  },
+  {
+    "id": "adaptecca-tasmaxmax-ssp245",
+    "title": "AdapteCCa tasmaxmax ssp245",
+    "url": "https://escenarios.adaptecca.es/thredds/fileServer/peninsula/Proyecciones_CMIP6_en_rejilla/Climatologia/Temperatura/tasmaxmax/climatology_CMIP6_ESD-RegBA_tasmaxmax_ssp245.nc",
+    "kind": "dataset",
+    "review_status": "acquired for Galicia pilot",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "see original source and embedded metadata"
+  },
+  {
+    "id": "adaptecca-tasmaxmax-ssp370",
+    "title": "AdapteCCa tasmaxmax ssp370",
+    "url": "https://escenarios.adaptecca.es/thredds/fileServer/peninsula/Proyecciones_CMIP6_en_rejilla/Climatologia/Temperatura/tasmaxmax/climatology_CMIP6_ESD-RegBA_tasmaxmax_ssp370.nc",
+    "kind": "dataset",
+    "review_status": "acquired for Galicia pilot",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "see original source and embedded metadata"
+  },
+  {
+    "id": "adaptecca-prspellb1-ssp245",
+    "title": "AdapteCCa prspellb1 ssp245",
+    "url": "https://escenarios.adaptecca.es/thredds/fileServer/peninsula/Proyecciones_CMIP6_en_rejilla/Climatologia/Precipitacion/prspellb1/climatology_CMIP6_deepESD_prspellb1_ssp245.nc",
+    "kind": "dataset",
+    "review_status": "acquired for Galicia pilot",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "see original source and embedded metadata"
+  },
+  {
+    "id": "adaptecca-prspellb1-ssp370",
+    "title": "AdapteCCa prspellb1 ssp370",
+    "url": "https://escenarios.adaptecca.es/thredds/fileServer/peninsula/Proyecciones_CMIP6_en_rejilla/Climatologia/Precipitacion/prspellb1/climatology_CMIP6_deepESD_prspellb1_ssp370.nc",
+    "kind": "dataset",
+    "review_status": "acquired for Galicia pilot",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "see original source and embedded metadata"
+  },
+  {
+    "id": "adaptecca-prmax24-ssp245",
+    "title": "AdapteCCa prmax24 ssp245",
+    "url": "https://escenarios.adaptecca.es/thredds/fileServer/peninsula/Proyecciones_CMIP6_en_rejilla/Climatologia/Precipitacion/prmax24/climatology_CMIP6_deepESD_prmax24_ssp245.nc",
+    "kind": "dataset",
+    "review_status": "acquired for Galicia pilot",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "see original source and embedded metadata"
+  },
+  {
+    "id": "adaptecca-prmax24-ssp370",
+    "title": "AdapteCCa prmax24 ssp370",
+    "url": "https://escenarios.adaptecca.es/thredds/fileServer/peninsula/Proyecciones_CMIP6_en_rejilla/Climatologia/Precipitacion/prmax24/climatology_CMIP6_deepESD_prmax24_ssp370.nc",
+    "kind": "dataset",
+    "review_status": "acquired for Galicia pilot",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "see original source and embedded metadata"
+  },
+  {
+    "id": "galicia-flood-1",
+    "title": "coclico-None-2010",
+    "url": "https://minio.dive.edito.eu/project-coclico/coclico-stac-edito/cfhp_all/items/UNDEFENDED_MAPS/100/None/2010.json",
+    "kind": "reference",
+    "review_status": "see galicia-flood-access.md",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "see original source terms"
+  },
+  {
+    "id": "galicia-flood-2",
+    "title": "coclico-rias-baixas-None-2010-rp100-undefended",
+    "url": "https://minio.dive.edito.eu/project-coclico/cfhp_all/UNDEFENDED_MAPS/100/None/2010/B01_epsg=3035_x=2366962_y=2139137.tif",
+    "kind": "data-extract",
+    "review_status": "see galicia-flood-access.md",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "see original source terms"
+  },
+  {
+    "id": "galicia-flood-4",
+    "title": "coclico-rias-baixas-SSP245-2050-rp100-undefended",
+    "url": "https://minio.dive.edito.eu/project-coclico/cfhp_all/UNDEFENDED_MAPS/100/SSP245/2050/B01_epsg=3035_x=2366962_y=2139137.tif",
+    "kind": "data-extract",
+    "review_status": "see galicia-flood-access.md",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "see original source terms"
+  },
+  {
+    "id": "galicia-flood-5",
+    "title": "galicia-bbox-inunriver_historical_000000000WATCH_1980_rp00100",
+    "url": "https://aqueduct.wridata.org/AqueductFloods20/inunriver_historical_000000000WATCH_1980_rp00100.tif",
+    "kind": "data-extract",
+    "review_status": "see galicia-flood-access.md",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "see original source terms"
+  },
+  {
+    "id": "galicia-flood-6",
+    "title": "galicia-bbox-inunriver_rcp4p5_00000NorESM1-M_2050_rp00100",
+    "url": "https://aqueduct.wridata.org/AqueductFloods20/inunriver_rcp4p5_00000NorESM1-M_2050_rp00100.tif",
+    "kind": "data-extract",
+    "review_status": "see galicia-flood-access.md",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "see original source terms"
+  },
+  {
+    "id": "galicia-flood-7",
+    "title": "galicia-bbox-inunriver_rcp4p5_0000GFDL-ESM2M_2050_rp00100",
+    "url": "https://aqueduct.wridata.org/AqueductFloods20/inunriver_rcp4p5_0000GFDL-ESM2M_2050_rp00100.tif",
+    "kind": "data-extract",
+    "review_status": "see galicia-flood-access.md",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "see original source terms"
+  },
+  {
+    "id": "galicia-flood-8",
+    "title": "galicia-bbox-inunriver_rcp4p5_0000HadGEM2-ES_2050_rp00100",
+    "url": "https://aqueduct.wridata.org/AqueductFloods20/inunriver_rcp4p5_0000HadGEM2-ES_2050_rp00100.tif",
+    "kind": "data-extract",
+    "review_status": "see galicia-flood-access.md",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "see original source terms"
+  },
+  {
+    "id": "galicia-flood-9",
+    "title": "galicia-bbox-inunriver_rcp4p5_00IPSL-CM5A-LR_2050_rp00100",
+    "url": "https://aqueduct.wridata.org/AqueductFloods20/inunriver_rcp4p5_00IPSL-CM5A-LR_2050_rp00100.tif",
+    "kind": "data-extract",
+    "review_status": "see galicia-flood-access.md",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "see original source terms"
+  },
+  {
+    "id": "galicia-flood-10",
+    "title": "galicia-bbox-inunriver_rcp4p5_MIROC-ESM-CHEM_2050_rp00100",
+    "url": "https://aqueduct.wridata.org/AqueductFloods20/inunriver_rcp4p5_MIROC-ESM-CHEM_2050_rp00100.tif",
+    "kind": "data-extract",
+    "review_status": "see galicia-flood-access.md",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "see original source terms"
+  },
+  {
+    "id": "galicia-flood-11",
+    "title": "galicia-flood-access-checks",
+    "url": null,
+    "kind": "reference",
+    "review_status": "see galicia-flood-access.md",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "see original source terms"
   }
 ]

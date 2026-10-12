@@ -1,0 +1,92 @@
+{
+  "artifacts": [
+    {
+      "path": "data/raw/public/galicia-flood/coclico-None-2010.json",
+      "url": "https://minio.dive.edito.eu/project-coclico/coclico-stac-edito/cfhp_all/items/UNDEFENDED_MAPS/100/None/2010.json",
+      "sha256": "803351aad57d35b6feb89986cbbb3c9d2d761feaf27bbab2aeb4558374175863",
+      "size_bytes": 65085,
+      "acquired_at": "2026-10-12T08:30:38.598192+00:00",
+      "processing": null
+    },
+    {
+      "path": "data/raw/public/galicia-flood/coclico-rias-baixas-None-2010-rp100-undefended.tif",
+      "url": "https://minio.dive.edito.eu/project-coclico/cfhp_all/UNDEFENDED_MAPS/100/None/2010/B01_epsg=3035_x=2366962_y=2139137.tif",
+      "sha256": "e14b675dec47251ee5c2825234634cbeb52f46d94bcb4f75a2ba63d5db040b82",
+      "size_bytes": 86520,
+      "acquired_at": "2026-10-12T08:30:39.668017+00:00",
+      "processing": "HTTP range crop with rasterio; see galicia-flood-access-checks.json"
+    },
+    {
+      "path": "data/raw/public/galicia-flood/coclico-SSP245-2050.json",
+      "url": "https://minio.dive.edito.eu/project-coclico/coclico-stac-edito/cfhp_all/items/UNDEFENDED_MAPS/100/SSP245/2050.json",
+      "sha256": "242f5c90e640eb5705288be5167b1c6f1d12fd437a36fa22f32bbe2df58fa405",
+      "size_bytes": 65433,
+      "acquired_at": "2026-10-12T08:30:40.061788+00:00",
+      "processing": null
+    },
+    {
+      "path": "data/raw/public/galicia-flood/coclico-rias-baixas-SSP245-2050-rp100-undefended.tif",
+      "url": "https://minio.dive.edito.eu/project-coclico/cfhp_all/UNDEFENDED_MAPS/100/SSP245/2050/B01_epsg=3035_x=2366962_y=2139137.tif",
+      "sha256": "c83409367ade0c1ef8baed7bbff6edb2d53a878cc70a79fbcd1b629eba4145e9",
+      "size_bytes": 90459,
+      "acquired_at": "2026-10-12T08:30:40.644249+00:00",
+      "processing": "HTTP range crop with rasterio; see galicia-flood-access-checks.json"
+    },
+    {
+      "path": "data/raw/public/galicia-flood/galicia-bbox-inunriver_historical_000000000WATCH_1980_rp00100.tif",
+      "url": "https://aqueduct.wridata.org/AqueductFloods20/inunriver_historical_000000000WATCH_1980_rp00100.tif",
+      "sha256": "91109004da4670b02f0f2ae32a8e53a56773a640ee35871b5b974bf6e070b2ab",
+      "size_bytes": 14621,
+      "acquired_at": "2026-10-12T08:30:43.024667+00:00",
+      "processing": "HTTP range crop with rasterio; see galicia-flood-access-checks.json"
+    },
+    {
+      "path": "data/raw/public/galicia-flood/galicia-bbox-inunriver_rcp4p5_00000NorESM1-M_2050_rp00100.tif",
+      "url": "https://aqueduct.wridata.org/AqueductFloods20/inunriver_rcp4p5_00000NorESM1-M_2050_rp00100.tif",
+      "sha256": "5f5c7f9e59fa67c5c2ee39ea6d0996bc8b039e2afb0fe105f4d6cab14083cbef",
+      "size_bytes": 14595,
+      "acquired_at": "2026-10-12T08:30:46.312776+00:00",
+      "processing": "HTTP range crop with rasterio; see galicia-flood-access-checks.json"
+    },
+    {
+      "path": "data/raw/public/galicia-flood/galicia-bbox-inunriver_rcp4p5_0000GFDL-ESM2M_2050_rp00100.tif",
+      "url": "https://aqueduct.wridata.org/AqueductFloods20/inunriver_rcp4p5_0000GFDL-ESM2M_2050_rp00100.tif",
+      "sha256": "1b51d0595d1e2cd1c70230b09f47f40ae32a451403ec19fd0eefbc742edb766d",
+      "size_bytes": 14622,
+      "acquired_at": "2026-10-12T08:31:19.909547+00:00",
+      "processing": "HTTP range crop with rasterio; see galicia-flood-access-checks.json"
+    },
+    {
+      "path": "data/raw/public/galicia-flood/galicia-bbox-inunriver_rcp4p5_0000HadGEM2-ES_2050_rp00100.tif",
+      "url": "https://aqueduct.wridata.org/AqueductFloods20/inunriver_rcp4p5_0000HadGEM2-ES_2050_rp00100.tif",
+      "sha256": "e0c42681a9bc1443d1ecd1c3db02b5a41688d8e48653c4161c52fc2a67d5ac73",
+      "size_bytes": 14652,
+      "acquired_at": "2026-10-12T08:31:23.244491+00:00",
+      "processing": "HTTP range crop with rasterio; see galicia-flood-access-checks.json"
+    },
+    {
+      "path": "data/raw/public/galicia-flood/galicia-bbox-inunriver_rcp4p5_00IPSL-CM5A-LR_2050_rp00100.tif",
+      "url": "https://aqueduct.wridata.org/AqueductFloods20/inunriver_rcp4p5_00IPSL-CM5A-LR_2050_rp00100.tif",
+      "sha256": "d89812c4de7ce1600a5c1d88b75ccf231d2efad498553c9d6d45e8ae3b3723d6",
+      "size_bytes": 14686,
+      "acquired_at": "2026-10-12T08:31:26.669040+00:00",
+      "processing": "HTTP range crop with rasterio; see galicia-flood-access-checks.json"
+    },
+    {
+      "path": "data/raw/public/galicia-flood/galicia-bbox-inunriver_rcp4p5_MIROC-ESM-CHEM_2050_rp00100.tif",
+      "url": "https://aqueduct.wridata.org/AqueductFloods20/inunriver_rcp4p5_MIROC-ESM-CHEM_2050_rp00100.tif",
+      "sha256": "8259a194df7b4dcace7c2bd63bdf14646ebf52b05c5ce3735a5cfd06e9b63c38",
+      "size_bytes": 14480,
+      "acquired_at": "2026-10-12T08:31:30.121468+00:00",
+      "processing": "HTTP range crop with rasterio; see galicia-flood-access-checks.json"
+    },
+    {
+      "path": "data/raw/public/galicia-flood/galicia-flood-access-checks.json",
+      "url": null,
+      "sha256": "50a84ad499e943490c52856ee3cf01310d84a6deba7757093554e9b0b207749f",
+      "size_bytes": 6182,
+      "acquired_at": "2026-10-12T08:31:30.121849+00:00",
+      "processing": "Locally generated access evidence"
+    }
+  ]
+}

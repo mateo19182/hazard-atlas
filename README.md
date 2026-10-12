@@ -18,6 +18,8 @@ We have not established scientific novelty. Multi-hazard indices and sensitivity
 
 ## Start here
 
+- [Galicia 10 km pilot](research/galicia-pilot.md): first computed maps, model comparisons and local interactive report.
+
 - [Future comparison](research/future-comparison.md): broader research direction, close precedents and candidate experiments.
 - [Future flood audit](research/flood-future-audit.md) and [present flood audit](research/flood-present-audit.md): access, assumptions and comparison opportunities.
 - [Spanish climate data check](research/adaptecca-access-check.md): acquired heatwave projections and a reproducible inspection.
@@ -33,7 +35,7 @@ We have not established scientific novelty. Multi-hazard indices and sensitivity
 
 ## Current state
 
-Research and source collection, including an inspected Spanish future-heat dataset and a small future coastal-flood raster sample. There is no implemented atlas, validated composite score or completed national dataset. A source listed in the catalogue is not necessarily downloaded, reproducible or approved for redistribution.
+Research and source collection, including an inspected Spanish future-heat dataset and a small future coastal-flood raster sample. A local Galicia explorer is available. There is no validated composite score or completed national dataset. A source listed in the catalogue is not necessarily downloaded, reproducible or approved for redistribution.
 
 ## Repository layout
 
