@@ -87,3 +87,10 @@ Two indicators enter the main 10 km selector: annual mean FWI and annual days wi
 Across valid source area in the retained target cells, annual mean FWI increases from 5.09 to 6.06 and annual days above 30 from 3.15 to 3.93. These summarize one model, not a consensus forecast. No model percentiles or spread are reported. Exact values, windows, hashes and calendar checks are in `data/derived/galicia/fire-highres-provenance.json`.
 
 To reproduce, install Playwright Chromium once with `uv run --with playwright playwright install chromium --only-shell`, then run `uv run research/galicia-fire9km-acquire.py`, `uv run scripts/build_fire_highres.py`, and finally `uv run scripts/build_galicia.py`. The acquisition script uses the public provider interface to obtain bounded range reads; temporary session headers and signed download links are kept outside the repository. Public transfer links may expire; the versioned source record links to the current provider README.
+
+
+### Page presentation
+
+The atlas is now in Spanish, with a single map and five hazard tabs. Future, historical and change views share the same cell selection. The layer selector retains official flood extents, historical Aqueduct threshold comparisons and source overlap. Coarse summer fire weather keeps its native grid. Source dates, units, single-model limits and missing-data distinctions remain visible; longer methods are expandable. Model-paired changes are labelled separately from differences between the displayed medians. CSV export contains the active layer's values and source.
+
+The page can be rebuilt independently with `python scripts/render_galicia.py`. This changes presentation without recomputing the indicators.

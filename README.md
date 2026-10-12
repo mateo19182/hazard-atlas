@@ -55,3 +55,10 @@ data/manifest.json Tracked provenance and checksums for local files
 Raw material belongs in this project directory, including restricted papers supplied by the user. Git tracks the research and provenance rather than automatically uploading third-party data. The GitHub remote contains code, research and provenance. Ignored raw and derived files still need a separate backup/storage arrangement.
 
 Names, hazards, spatial units, formulas, technology, licensing and product direction remain open. No project-wide license has been chosen; third-party works retain their own terms.
+
+
+## Page development
+
+The Spanish atlas uses one map with hazard tabs, historical/future views, a cell detail panel and expandable source notes. Its source is in `web/`; it has no framework or external runtime assets.
+
+`uv run scripts/build_galicia.py` computes the research outputs and saves `data/derived/galicia/report-data.json`. For layout or wording changes, run `python scripts/render_galicia.py` to rebuild the self-contained page from that saved payload. `page-provenance.json` records the payload and page-source hashes separately from the scientific processing record. Tailscale serves the generated `galicia.html` at the existing address.

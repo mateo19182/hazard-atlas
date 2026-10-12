@@ -177,7 +177,7 @@ fig.suptitle('Galicia · 10 km exploratory climate grid\n2041–2070 · SSP2-4.5
 fig.text(.05,.025,'AdapteCCa / AEMET / CSIC · Boundary: Eurostat GISCO\nArea-weighted source indices; cells with <80% valid coverage are grey. No overall safety score.',fontsize=9)
 fig.savefig(OUT/'galicia-climate.png',dpi=160,bbox_inches='tight');plt.close(fig)
 summary={var:{sc:{'mapped_cells':int(np.isfinite(r['future']).sum()),'median_cell_change':float(np.nanmedian(r['change'])),'future_cell_range':[float(np.nanmin(r['future'])),float(np.nanmax(r['future']))]} for sc,r in scs.items()} for var,scs in records.items()}
-provenance={'grid_crs':'EPSG:3035','cell_side_m':10000,'grid_origin':[0,0],'boundary':'GISCO ES11 2024 1:1 million','cells':len(grid),'area_km2':float(areas.sum()/1e6),'minimum_valid_area_fraction':.8,'method':'Area-overlap weighted mean per source model and period, then ensemble median; climate changes paired by model; river changes compare each future forcing against one WATCH baseline; P90 minus P10 model spread. Source average member excluded.','inputs':inputs,'summary':summary,'script':'scripts/build_galicia.py','script_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),'template_sha256':hashlib.sha256((ROOT/'scripts/galicia-report-template.html').read_bytes()).hexdigest()}
+provenance={'grid_crs':'EPSG:3035','cell_side_m':10000,'grid_origin':[0,0],'boundary':'GISCO ES11 2024 1:1 million','cells':len(grid),'area_km2':float(areas.sum()/1e6),'minimum_valid_area_fraction':.8,'method':'Area-overlap weighted mean per source model and period, then ensemble median; climate changes paired by model; river changes compare each future forcing against one WATCH baseline; P90 minus P10 model spread. Source average member excluded.','inputs':inputs,'summary':summary,'script':'scripts/build_galicia.py','script_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),'page_sources':'web/; hashes in page-provenance.json'}
 if highres_provenance is not None:provenance['fire_highres']=highres_provenance
 (OUT/'provenance.json').write_text(json.dumps(provenance,indent=2))
 # SVG geometry for a self-contained interactive research artifact.
@@ -242,6 +242,7 @@ if validation_path.exists():
  payload['flood_validation']=validation
  provenance['flood_validation']={'path':str(validation_path.relative_to(ROOT)),'sha256':hashlib.sha256(validation_path.read_bytes()).hexdigest()}
 (OUT/'provenance.json').write_text(json.dumps(provenance,indent=2))
-template=(ROOT/'scripts/galicia-report-template.html').read_text()
-(OUT/'galicia.html').write_text(template.replace('__DATA__',json.dumps(payload,allow_nan=False)))
+(OUT/'report-data.json').write_text(json.dumps(payload,allow_nan=False))
+from render_galicia import render
+render()
 print(json.dumps(provenance['summary'],indent=2));print('Cells',len(grid),'area km2',areas.sum()/1e6)

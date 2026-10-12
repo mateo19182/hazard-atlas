@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Explora el clima y los peligros naturales de Galicia hacia 2050. Compara lugares, escenarios y fuentes.">
+<title>Galicia · Atlas de peligros naturales</title>
+<style>__STYLE__</style>
+</head>
+<body>
+<header class="header"><a class="brand" href="#">atlas<span> / Galicia</span></a><span class="status"><i></i> En estudio</span></header>
+<main>
+<div class="heading"><h1>Galicia, hacia 2050.</h1><span class="resolution" id="resolution">Cuadrícula de 10 km</span></div>
+<nav class="hazards" aria-label="Peligro natural" id="hazards"></nav>
+<div class="toolbar">
+<label class="field"><span class="sr-only">Indicador</span><select id="layer"></select></label>
+<div class="periods" id="periods" role="group" aria-label="Periodo"></div>
+<label class="field scenario"><span class="sr-only">Escenario</span><select id="scenario"></select></label>
+<label class="field threshold" id="threshold-field" hidden><span>Profundidad</span><select id="threshold"><option value="0">&gt; 0 m</option><option value="0.1" selected>&gt; 0,1 m</option><option value="0.5">&gt; 0,5 m</option><option value="1">&gt; 1 m</option></select></label>
+</div>
+<div class="workspace">
+<section class="map-panel" aria-label="Mapa">
+<div class="map-meta"><span id="map-period"></span><span id="map-models"></span></div>
+<svg id="map" aria-label="Galicia" role="group"><defs><pattern id="missing" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="6" height="6" fill="#e6e8e3"/><path d="M-1 1L1-1M0 6L6 0M5 7L7 5" stroke="#cfd3cb" stroke-width=".7"/></pattern></defs><g id="cells"></g><g id="cities"></g></svg>
+<div class="legend"><div id="gradient"></div><div class="legend-labels"><span id="low"></span><span id="unit"></span><span id="high"></span></div></div>
+<div class="map-foot"><span id="missing-note"></span><button class="text-button" id="clear-selection" hidden>Quitar selección</button></div>
+</section>
+<aside class="detail-panel">
+<label class="place-field"><span class="sr-only">Ir a una ciudad</span><select id="place"><option value="">Ir a una ciudad</option></select></label>
+<div id="selection" aria-live="polite"></div>
+<p class="definition" id="definition"></p>
+<p class="caveat" id="caveat"></p>
+<details id="methods"><summary>Fuente y método <span>+</span></summary><div class="method-content"><div id="method-info"></div><label id="extra-field" class="extra-field">Más vistas<select id="extra-view"></select></label><button id="download" class="text-button">Descargar datos · CSV ↓</button><a href="https://github.com/mateo19182/hazard-atlas" target="_blank" rel="noopener">Investigación y código ↗</a></div></details>
+</aside>
+</div>
+</main>
+<footer><span>Peligros físicos, sin índice global de seguridad.</span><span>© Eurostat GISCO · <a id="source-credit" target="_blank" rel="noopener"></a></span></footer>
+<script>const D=__DATA__;</script>
+<script>__SCRIPT__</script>
+</body>
+</html>
