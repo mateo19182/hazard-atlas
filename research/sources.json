@@ -1,0 +1,402 @@
+[
+  {
+    "id": "springer-spain",
+    "title": "Spain clustering resilience chapter",
+    "url": "https://doi.org/10.1007/978-3-031-74006-0_10",
+    "kind": "paper",
+    "review_status": "full chapter read",
+    "notes": "User supplied full book via Tailscale; restricted local copy.",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "thinkhazard",
+    "title": "ThinkHazard documentation",
+    "url": "https://gfdrr.github.io/thinkhazard/",
+    "kind": "method",
+    "review_status": "documentation reviewed",
+    "notes": "Global individual-hazard benchmark.",
+    "acquisition_status": "snapshot_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "thinkhazard-classification",
+    "title": "ThinkHazard classification",
+    "url": "https://gfdrr.github.io/thinkhazard/hazard-classification/",
+    "kind": "method",
+    "review_status": "documentation reviewed",
+    "notes": "Version-dependent thresholds and exceptions need auditing.",
+    "acquisition_status": "snapshot_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "thinkhazard-data",
+    "title": "ThinkHazard data references",
+    "url": "https://gfdrr.github.io/thinkhazard/data-references/",
+    "kind": "catalogue",
+    "review_status": "documentation reviewed",
+    "notes": "Underlying data terms vary.",
+    "acquisition_status": "snapshot_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "thinkhazard-download",
+    "title": "ThinkHazard rankings",
+    "url": "https://datacatalog.worldbank.org/search/dataset/0060151/thinkhazard-hazard-ranking",
+    "kind": "dataset",
+    "review_status": "landing page inspected",
+    "notes": "Bulk data not acquired.",
+    "acquisition_status": "not_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "thinkhazard-legacy",
+    "title": "ThinkHazard legacy methodology",
+    "url": "https://thinkhazard.org/static/documents/thinkhazard-methodology-report_v2_0.pdf",
+    "kind": "method",
+    "review_status": "partially reviewed",
+    "notes": "Compare with current implementation.",
+    "acquisition_status": "not_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "unicef-ccrr",
+    "title": "UNICEF CCRR repository",
+    "url": "https://github.com/unicef/CCRR",
+    "kind": "implementation",
+    "review_status": "README reviewed",
+    "notes": "Downstream child exposure and vulnerability differ from our purpose.",
+    "acquisition_status": "not_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "unicef-mhi-readme",
+    "title": "UNICEF MHI documentation",
+    "url": "https://raw.githubusercontent.com/unicef/CCRR/main/Multi_Hazard_Indicators/MHI/README.md",
+    "kind": "method",
+    "review_status": "reviewed",
+    "notes": "Close physical climate-hazard composite precedent.",
+    "acquisition_status": "snapshot_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "unicef-mhi-code",
+    "title": "UNICEF MHI notebook",
+    "url": "https://raw.githubusercontent.com/unicef/CCRR/main/Multi_Hazard_Indicators/MHI/mhi_construction.ipynb",
+    "kind": "implementation",
+    "review_status": "code inspected",
+    "notes": "Not executed or validated.",
+    "acquisition_status": "snapshot_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "unicef-mhi-inputs",
+    "title": "UNICEF MHI input export",
+    "url": "https://raw.githubusercontent.com/unicef/CCRR/main/Multi_Hazard_Indicators/MHI/MHI_input_gee.js",
+    "kind": "implementation",
+    "review_status": "identified",
+    "notes": "GEE input acquisition requires audit.",
+    "acquisition_status": "snapshot_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "antofie-2025",
+    "title": "European multi-hazard exposure hotspots",
+    "url": "https://nhess.copernicus.org/articles/25/287/2025/",
+    "kind": "paper",
+    "review_status": "methodology reviewed",
+    "notes": "Six hazards; population/building exposure at LAU scale.",
+    "acquisition_status": "snapshot_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "antofie-code",
+    "title": "EMHERG implementation and data",
+    "url": "https://github.com/Tiberiu-79/Spatial-identification-of-regions-exposed-to-multi-hazards-at-pan-European-level-EMHERG-",
+    "kind": "implementation",
+    "review_status": "README inspected",
+    "notes": "Not reproduced.",
+    "acquisition_status": "not_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "espon-titan",
+    "title": "ESPON aggregated hazard indicator",
+    "url": "https://database.espon.eu/indicator/2178/",
+    "kind": "index",
+    "review_status": "methodology reviewed",
+    "notes": "Financial-loss weights; five hazards.",
+    "acquisition_status": "snapshot_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "fema-nri",
+    "title": "FEMA NRI research paper",
+    "url": "https://link.springer.com/article/10.1007/s11069-022-05474-w",
+    "kind": "paper",
+    "review_status": "abstract reviewed",
+    "notes": "Expected loss and social factors differ from selected objective.",
+    "acquisition_status": "not_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "inform",
+    "title": "INFORM methodology",
+    "url": "https://drmkc.jrc.ec.europa.eu/inform-index/INFORM-Risk/Methodology",
+    "kind": "method",
+    "review_status": "reviewed",
+    "notes": "Includes vulnerability and coping capacity.",
+    "acquisition_status": "snapshot_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "oecd-composite",
+    "title": "OECD JRC composite indicator handbook",
+    "url": "https://www.oecd.org/en/publications/handbook-on-constructing-composite-indicators-methodology-and-user-guide_9789264043466-en.html",
+    "kind": "method",
+    "review_status": "selected methodology reviewed",
+    "notes": "Normalization, weighting, uncertainty and sensitivity.",
+    "acquisition_status": "not_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "ericc",
+    "title": "ERICC 2025",
+    "url": "https://www.miteco.gob.es/es/cambio-climatico/temas/impactos-vulnerabilidad-y-adaptacion/ericc/que-es-la-ericc.html",
+    "kind": "synthesis",
+    "review_status": "overview reviewed",
+    "notes": "Spanish national climate-risk synthesis.",
+    "acquisition_status": "snapshot_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "snczi",
+    "title": "SNCZI flood mapping",
+    "url": "https://www.miteco.gob.es/fr/agua/temas/gestion-de-los-riesgos-de-inundacion/snczi.html",
+    "kind": "dataset",
+    "review_status": "overview reviewed",
+    "notes": "Flood layers not downloaded.",
+    "acquisition_status": "not_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "snczi-coverage",
+    "title": "MITECO flood mapping coverage explanation",
+    "url": "https://www.miteco.gob.es/en/agua/temas/gestion-de-los-riesgos-de-inundacion/cnih/tras-huellas-agua/aprende/zona-inundable1.html",
+    "kind": "documentation",
+    "review_status": "reviewed",
+    "notes": "Unmapped does not mean no flood hazard.",
+    "acquisition_status": "not_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "ign-seismic",
+    "title": "IGN seismic hazard",
+    "url": "https://www.ign.es/web/sis-peligrosidad-sismica",
+    "kind": "dataset",
+    "review_status": "landing page reviewed",
+    "notes": "Underlying layers not acquired.",
+    "acquisition_status": "not_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "effis",
+    "title": "EFFIS wildfire risk guide",
+    "url": "https://data.effis.emergency.copernicus.eu/apps/fire.risk.viewer/effis.fire.risk.viewer.user.guide.pdf",
+    "kind": "method",
+    "review_status": "identified",
+    "notes": "Long-term hazard suitability to evaluate.",
+    "acquisition_status": "not_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "igme",
+    "title": "IGME movement mapping and inventories",
+    "url": "https://info.igme.es/cartografiadigital/portada/mapa-del-mes.aspx?anio=2024&mes=11",
+    "kind": "dataset",
+    "review_status": "overview reviewed",
+    "notes": "Scales and dates vary.",
+    "acquisition_status": "not_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "adaptecca",
+    "title": "AdapteCCa scenarios",
+    "url": "https://escenarios.adaptecca.es/",
+    "kind": "dataset",
+    "review_status": "documentation reviewed",
+    "notes": "Climate projections are not property-level flood estimates.",
+    "acquisition_status": "not_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "gem",
+    "title": "GEM global seismic hazard",
+    "url": "https://www.globalquakemodel.org/t-products/global-seismic-hazard-map?rc=test-site",
+    "kind": "dataset",
+    "review_status": "landing page reviewed",
+    "notes": "Reuse rights depend on product; cited download has noncommercial terms.",
+    "acquisition_status": "not_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "climada",
+    "title": "CLIMADA overview",
+    "url": "https://climada-python.readthedocs.io/en/v6.0.0/tutorial/1_main_climada.html",
+    "kind": "software",
+    "review_status": "overview reviewed",
+    "notes": "Candidate tooling, no adoption decision.",
+    "acquisition_status": "not_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "worldrisk",
+    "title": "WorldRiskIndex methodological notes 2021",
+    "url": "https://weltrisikobericht.de/wp-content/uploads/2021/09/Methodological_notes_WorldRiskIndex2021.pdf",
+    "kind": "method",
+    "review_status": "identified",
+    "notes": "Version-specific; population exposure and vulnerability.",
+    "acquisition_status": "not_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "ccs",
+    "title": "Consorcio publications",
+    "url": "https://www.consorseguros.es/la-entidad/publicaciones",
+    "kind": "catalogue",
+    "review_status": "overview reviewed",
+    "notes": "Possible validation evidence; insured losses have selection effects.",
+    "acquisition_status": "not_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "georisques",
+    "title": "Georisques",
+    "url": "https://www.georisques.gouv.fr/citoyen-recherche-map",
+    "kind": "product",
+    "review_status": "overview reviewed",
+    "notes": "French address-based precedent.",
+    "acquisition_status": "not_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "firststreet",
+    "title": "First Street damage methodology",
+    "url": "https://firststreet.org/research-library/climate-risk-and-losses-methodology",
+    "kind": "product",
+    "review_status": "overview reviewed",
+    "notes": "Property loss/vulnerability model.",
+    "acquisition_status": "not_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "gloval",
+    "title": "Gloval GreenDataLens",
+    "url": "https://analytics.gloval.es/green-data-lens/",
+    "kind": "product",
+    "review_status": "published description reviewed",
+    "notes": "Functionality not independently tested.",
+    "acquisition_status": "not_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "pisoadvisor",
+    "title": "Piso Advisor",
+    "url": "https://pisoadvisor.es/",
+    "kind": "product",
+    "review_status": "published description reviewed",
+    "notes": "Functionality not independently tested.",
+    "acquisition_status": "not_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "stanalytics",
+    "title": "ST Analytics housing risk report",
+    "url": "https://www.st-tasacion.es/pdf/informes/Np-Mapa-de-riesgos-del-parque-de-vivienda-en-Espana-2024-vf.pdf",
+    "kind": "product",
+    "review_status": "identified",
+    "notes": "Professional risk-analysis precedent.",
+    "acquisition_status": "not_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "origin-post",
+    "title": "Original India comfort map",
+    "url": "https://x.com/karthiks/status/2109504285344256178",
+    "kind": "origin",
+    "review_status": "post and image reviewed",
+    "notes": "Earlier comfort focus, superseded.",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "histoclima",
+    "title": "Histoclima",
+    "url": "https://histoclima.com/es/",
+    "kind": "earlier-lead",
+    "review_status": "published description reviewed",
+    "notes": "Comfort/history research, superseded.",
+    "acquisition_status": "not_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "nochetropical",
+    "title": "Noche Tropical",
+    "url": "https://nochetropical.es/mapa-estaciones/",
+    "kind": "earlier-lead",
+    "review_status": "published description reviewed",
+    "notes": "Tropical-night map precedent.",
+    "acquisition_status": "not_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "weatherspark",
+    "title": "WeatherSpark Spain",
+    "url": "https://weatherspark.com/countries/ES",
+    "kind": "earlier-lead",
+    "review_status": "overview reviewed",
+    "notes": "Comfort comparisons, superseded.",
+    "acquisition_status": "not_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "vivedonde",
+    "title": "ViveDonde",
+    "url": "https://www.vivedonde.com/",
+    "kind": "earlier-lead",
+    "review_status": "published description reviewed",
+    "notes": "Location-comparison precedent.",
+    "acquisition_status": "not_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "openmeteo",
+    "title": "Open-Meteo historical weather",
+    "url": "https://open-meteo.com/en/docs/historical-weather-api",
+    "kind": "earlier-lead",
+    "review_status": "documentation reviewed",
+    "notes": "Potential climate inputs; not adopted.",
+    "acquisition_status": "not_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "rocio",
+    "title": "AEMET ROCIO grids",
+    "url": "https://www.aemet.es/en/serviciosclimaticos/cambio_climat/datos_diarios/ayuda/rejilla_5km",
+    "kind": "dataset",
+    "review_status": "documentation reviewed",
+    "notes": "Climate grids; commercial restrictions documented in earlier review.",
+    "acquisition_status": "not_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  },
+  {
+    "id": "uib-tourism",
+    "title": "Spanish outdoor-tourism climate study",
+    "url": "https://doi.org/10.1080/09669582.2022.2096624",
+    "kind": "earlier-lead",
+    "review_status": "abstract reviewed",
+    "notes": "Comfort project background, superseded.",
+    "acquisition_status": "not_downloaded",
+    "rights_status": "not_cleared_for_redistribution"
+  }
+]
