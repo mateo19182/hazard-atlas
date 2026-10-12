@@ -61,7 +61,7 @@ Source descriptions and links are in [climate definitions](galicia-indicator-def
 
 ## Flood and fire-weather extension
 
-The private [GitHub repository](https://github.com/mateo19182/hazard-atlas) now stores the scripts, research and source manifests. The [live report on Tailscale](https://m19182.tail5196fa.ts.net/galicia) includes the new comparisons. Raw and generated data remain local and excluded from Git; the GitHub push is not a backup of these files.
+The [GitHub repository](https://github.com/mateo19182/hazard-atlas) stores the scripts, research and source manifests. The [live report on Tailscale](https://m19182.tail5196fa.ts.net/galicia) includes the new comparisons. Raw and generated data remain local and excluded from Git; the GitHub push is not a backup of these files.
 
 The [official flood comparison](galicia-flood-validation.md) obtains SNCZI T100 fluvial polygons through MITECO's OGC API, preserving study attributes and checking complete pagination. It compares historical Aqueduct footprints at depth thresholds of 0, 0.1, 0.5 and 1 m. The report shows official positive extent, Aqueduct footprint and the fraction of covered official positives captured. A fixed 0–100% scale is used for Aqueduct fractions across thresholds. This is a positive-extent comparison, not an overall accuracy score: SNCZI study-domain coverage remains unknown. Planning-cycle dates are not future climate scenarios.
 

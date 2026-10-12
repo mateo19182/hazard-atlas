@@ -1,6 +1,6 @@
 # Hazard atlas
 
-Private research repository: [mateo19182/hazard-atlas](https://github.com/mateo19182/hazard-atlas).
+Research repository: [mateo19182/hazard-atlas](https://github.com/mateo19182/hazard-atlas).
 
 Find places with consistently lower natural-hazard exposure, and explain where indicators disagree and why.
 
@@ -20,6 +20,7 @@ We have not established scientific novelty. Multi-hazard indices and sensitivity
 
 ## Start here
 
+- [Work handoff](research/handoff.md): verified status, next priorities and how to resume.
 - [Galicia 10 km pilot](research/galicia-pilot.md): computed maps, model comparisons and reproduction.
 - [Interactive explorer on Tailscale](https://m19182.tail5196fa.ts.net/galicia): requires the owner's network connection.
 - [Official flood comparison](research/galicia-flood-validation.md) and [shallow-depth audit](research/galicia-flood-depth-audit.md).
