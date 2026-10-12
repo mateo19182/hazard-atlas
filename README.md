@@ -2,7 +2,7 @@
 
 Find places with consistently lower natural-hazard exposure, and explain where indicators disagree and why.
 
-Spain is the first study area. Worldwide coverage is a possible later extension. This is an exploratory research repository: the question is clearer than the method, and both can evolve as we learn.
+Spain is the first study area. Future hazards around 2050 are the priority, with present-day conditions as a baseline. Worldwide coverage is a possible later extension. This is an exploratory research repository: the question is clearer than the method, and both can evolve as we learn.
 
 The starting idea is a national map whose colors summarize physical hazards. A useful result would distinguish places that remain relatively low across defensible methods from places whose ranking depends on a particular dataset or weighting choice. Population, property prices and wealth should not determine the headline comparison.
 
@@ -18,6 +18,10 @@ We have not established scientific novelty. Multi-hazard indices and sensitivity
 
 ## Start here
 
+- [Future comparison](research/future-comparison.md): broader research direction, close precedents and candidate experiments.
+- [Future flood audit](research/flood-future-audit.md) and [present flood audit](research/flood-present-audit.md): access, assumptions and comparison opportunities.
+- [Spanish climate data check](research/adaptecca-access-check.md): acquired heatwave projections and a reproducible inspection.
+
 - [First exploration](research/first-exploration.md): a small proposed comparison, new reading leads and verified data-access routes.
 
 - [Research brief](research/brief.md): current direction, possible experiments and open decisions.
@@ -29,7 +33,7 @@ We have not established scientific novelty. Multi-hazard indices and sensitivity
 
 ## Current state
 
-Research and source collection only. There is no implemented atlas, validated composite score or completed national dataset. A source listed in the catalogue is not necessarily downloaded, reproducible or approved for redistribution.
+Research and source collection, including an inspected Spanish future-heat dataset and a small future coastal-flood raster sample. There is no implemented atlas, validated composite score or completed national dataset. A source listed in the catalogue is not necessarily downloaded, reproducible or approved for redistribution.
 
 ## Repository layout
 

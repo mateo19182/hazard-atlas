@@ -1,0 +1,30 @@
+[
+  {
+    "path": "data/raw/public/flood-present-audit/snczi-study-inventory.html",
+    "url": "https://www.miteco.gob.es/es/cartografia-y-sig/ide/descargas/agua/inventario-tramos.html",
+    "sha256": "dfb21693847725293d83bfe4b76e2c636621f0dcd6cd356b6379f65af535f3e0",
+    "bytes": 64264,
+    "acquired_at": "2026-10-12T08:18:50.121392+00:00"
+  },
+  {
+    "path": "data/raw/public/flood-present-audit/snczi-third-cycle-methodology.pdf",
+    "url": "https://www.miteco.gob.es/content/dam/miteco/es/agua/temas/gestion-de-los-riesgos-de-inundacion/mapri/Documento%20metodol%C3%B3gico%20SNCZI%20rev3C.pdf",
+    "sha256": "e7c369bc98d3affd01d9ac24fea7275f40353e9f68a1dc22156798e056a5b468",
+    "bytes": 3876115,
+    "acquired_at": "2026-10-12T08:18:50.708177+00:00"
+  },
+  {
+    "path": "data/raw/public/flood-present-audit/jrc-cems-inundation-methodology.html",
+    "url": "https://confluence.ecmwf.int/spaces/CEMS/pages/340774762/CEMS-Flood+flood+inundation+maps",
+    "sha256": "1434d6131f880c98daa36af37a632bb31543c9a0999159c95758b200d7cee51d",
+    "bytes": 82244,
+    "acquired_at": "2026-10-12T08:18:51.266722+00:00"
+  },
+  {
+    "path": "data/raw/public/flood-present-audit/dottori-2022-europe-flood.html",
+    "url": "https://essd.copernicus.org/articles/14/1549/2022/",
+    "sha256": "e41517a6fb0318d5ac50f0f197175bb42a2665fc65e2778550c9e87a184fcca2",
+    "bytes": 312438,
+    "acquired_at": "2026-10-12T08:18:51.812607+00:00"
+  }
+]

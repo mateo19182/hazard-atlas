@@ -4,6 +4,8 @@
 
 Find relatively lower-hazard places and investigate disagreement between indicators. Start with a Spain-wide overview, including islands and autonomous cities where coverage permits. Treat worldwide expansion as a design consideration rather than a promised release.
 
+Future hazards are now the main interest, with present-day conditions as a baseline. The user selected around 2050 as the main horizon, with present-day conditions alongside it. Exact dataset windows must stay visible. Research should explore a Spain-wide comparison across hazards while using focused source audits to check whether the larger idea is credible.
+
 The user selected physical natural-hazard exposure independent of wealth or population size. In technical reporting, distinguish hazard from exposure of people/assets, vulnerability and realized risk. No place should be described as universally safe.
 
 ## Working research design

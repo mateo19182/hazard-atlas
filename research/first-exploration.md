@@ -52,6 +52,6 @@ No geospatial comparison has been run yet. This pass verified documentation and 
 
 ## Decision pending
 
-The user has been asked whether to prioritize present-day hazards, conditions around 2050, or both. Present-day comparison is the provisional research starting point, not a confirmed preference. Source access and literature work are useful whichever option is selected.
+The user now prioritizes future hazards, with present-day conditions still relevant. The flood comparison remains a baseline audit within a broader future-hazard investigation. The user selected around 2050 with a present-day baseline.
 
 Hazard selection, final scoring, grid size and interface can stay open until this first comparison teaches us something.

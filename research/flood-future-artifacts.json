@@ -1,0 +1,92 @@
+{
+  "artifacts": [
+    {
+      "path": "data/raw/public/future-flood-audit/coclico-catalog.json",
+      "url": "https://minio.dive.edito.eu/project-coclico/coclico-stac-edito/catalog.json",
+      "resolved_url": "https://minio.dive.edito.eu/project-coclico/coclico-stac-edito/catalog.json",
+      "sha256": "ad9dcf0c22fa900f496a2a236afd6c97a52a1e0e10d22fa17fd6a22161e8e173",
+      "size_bytes": 11007,
+      "acquired_at": "2026-10-12T08:19:59.209233+00:00",
+      "content_type": "application/json"
+    },
+    {
+      "path": "data/raw/public/future-flood-audit/coclico-flood-collection.json",
+      "url": "https://minio.dive.edito.eu/project-coclico/coclico-stac-edito/cfhp_all/collection.json",
+      "resolved_url": "https://minio.dive.edito.eu/project-coclico/coclico-stac-edito/cfhp_all/collection.json",
+      "sha256": "9ecb0351f8d14cce6369a54b4341e77b9ff5080277399418aab058c93e960cb8",
+      "size_bytes": 97808,
+      "acquired_at": "2026-10-12T08:19:59.661824+00:00",
+      "content_type": "application/json"
+    },
+    {
+      "path": "data/raw/public/future-flood-audit/coclico-undefended-rp100-ssp245-2050.json",
+      "url": "https://minio.dive.edito.eu/project-coclico/coclico-stac-edito/cfhp_all/items/UNDEFENDED_MAPS/100/SSP245/2050.json",
+      "resolved_url": "https://minio.dive.edito.eu/project-coclico/coclico-stac-edito/cfhp_all/items/UNDEFENDED_MAPS/100/SSP245/2050.json",
+      "sha256": "242f5c90e640eb5705288be5167b1c6f1d12fd437a36fa22f32bbe2df58fa405",
+      "size_bytes": 65433,
+      "acquired_at": "2026-10-12T08:20:00.064213+00:00",
+      "content_type": "application/json"
+    },
+    {
+      "path": "data/raw/public/future-flood-audit/aqueduct-hazard-index.html",
+      "url": "https://aqueduct.wridata.org/AqueductFloods20/index.html",
+      "resolved_url": "https://aqueduct.wridata.org/AqueductFloods20/index.html",
+      "sha256": "e78a7ee2691b05d81f0d8f6f7374cb48ea5991d7007b1c780a2057d278892dad",
+      "size_bytes": 89342,
+      "acquired_at": "2026-10-12T08:20:00.803982+00:00",
+      "content_type": "text/html"
+    },
+    {
+      "path": "data/raw/public/future-flood-audit/aqueduct-methodology.pdf",
+      "url": "https://files.wri.org/d8/s3fs-public/aqueduct-floods-methodology.pdf",
+      "resolved_url": "https://files.wri.org/d8/s3fs-public/aqueduct-floods-methodology.pdf",
+      "sha256": "8eb0f00aaab929f13d2e04fa5f4880e9d45038f16961587b48d4d02b0072dc83",
+      "size_bytes": 1023383,
+      "acquired_at": "2026-10-12T08:20:01.787724+00:00",
+      "content_type": "application/pdf"
+    },
+    {
+      "path": "data/raw/public/future-flood-audit/valencia-pima-download-index.html",
+      "url": "https://descargas.icv.gva.es/dcd/05_medioambiente/07_riesgos_cclimatico/PIMA/pima_impactos_inun/",
+      "resolved_url": "https://descargas.icv.gva.es/dcd/05_medioambiente/07_riesgos_cclimatico/PIMA/pima_impactos_inun/",
+      "sha256": "a10b2e60170e443b6a64ce46495484b93f9fc37d7c2592e13afa494fe29bf202",
+      "size_bytes": 3120,
+      "acquired_at": "2026-10-12T08:20:02.021787+00:00",
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "path": "data/raw/public/future-flood-audit/valencia-pima-catalogue.html",
+      "url": "https://dadesobertes.gva.es/dataset/pima-adapta-impactos-escenarios-de-inundacion",
+      "resolved_url": "https://dadesobertes.gva.es/dataset/pima-adapta-impactos-escenarios-de-inundacion",
+      "sha256": "caee72417cc2849e53ed7a366d5f0f3a256ae6826102594858655f27584ea56c",
+      "size_bytes": 68463,
+      "acquired_at": "2026-10-12T08:20:02.629496+00:00",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "data/raw/public/future-flood-audit/coclico-handbook.html",
+      "url": "https://www.openearth.nl/coclico-workbench/Datasets/",
+      "resolved_url": "https://www.openearth.nl/coclico-workbench/Datasets/",
+      "sha256": "23da4a3a1b904373b2aac73e8fd213bc3e8c84ca5d56e05426aacc3d95c1a228",
+      "size_bytes": 133520,
+      "acquired_at": "2026-10-12T08:20:03.031519+00:00",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "data/raw/public/future-flood-audit/coclico-valencia-sample-ssp245-2050-rp100-undefended.tif",
+      "url": "https://minio.dive.edito.eu/project-coclico/cfhp_all/UNDEFENDED_MAPS/100/SSP245/2050/B01_epsg=3035_x=3186162_y=1319937.tif",
+      "sha256": "b989935257e9bae47cd5705fffb28107825eb53b73da44df402e16f2ad31135d",
+      "size_bytes": 99345,
+      "acquired_at": "2026-10-12T08:20:31.436333+00:00",
+      "processing": "Rasterio HTTP range window extraction, see coclico-raster-access-check.json"
+    },
+    {
+      "path": "data/raw/public/future-flood-audit/coclico-raster-access-check.json",
+      "url": "https://minio.dive.edito.eu/project-coclico/cfhp_all/UNDEFENDED_MAPS/100/SSP245/2050/B01_epsg=3035_x=3186162_y=1319937.tif",
+      "sha256": "846c17fd6ed7a50c00981a9152fde2d9dd92e57d8290f0938cea7a67291c9031",
+      "size_bytes": 905,
+      "acquired_at": "2026-10-12T08:20:31.436333+00:00",
+      "processing": "Locally generated metadata inspection record"
+    }
+  ]
+}

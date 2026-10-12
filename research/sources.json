@@ -458,5 +458,315 @@
     "notes": "Read. March 2026 v3.1.1 corrects modelling and DEM artefacts.",
     "acquisition_status": "snapshot_downloaded",
     "rights_status": "see source terms"
+  },
+  {
+    "id": "adaptecca-faq",
+    "title": "AdapteCCa interpretation FAQ",
+    "url": "https://escenarios.adaptecca.es/faq",
+    "kind": "documentation",
+    "review_status": "reviewed",
+    "notes": "Future-hazard research pass; preserve model-level terms.",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "model-specific terms; redistribution not cleared"
+  },
+  {
+    "id": "adaptecca-data-access",
+    "title": "AdapteCCa download routes",
+    "url": "https://escenarios.adaptecca.es/data",
+    "kind": "documentation",
+    "review_status": "reviewed",
+    "notes": "Future-hazard research pass; preserve model-level terms.",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "model-specific terms; redistribution not cleared"
+  },
+  {
+    "id": "adaptecca-terms",
+    "title": "AdapteCCa data terms",
+    "url": "https://escenarios.adaptecca.es/terminos",
+    "kind": "documentation",
+    "review_status": "reviewed",
+    "notes": "Future-hazard research pass; preserve model-level terms.",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "model-specific terms; redistribution not cleared"
+  },
+  {
+    "id": "adaptecca-heat-catalog",
+    "title": "CMIP6 heatwave duration catalogue",
+    "url": "https://escenarios.adaptecca.es/thredds/catalog/peninsula/Proyecciones_CMIP6_en_rejilla/Climatologia/Temperatura/tasmaxhwdmax/catalog.xml",
+    "kind": "documentation",
+    "review_status": "reviewed",
+    "notes": "Future-hazard research pass; preserve model-level terms.",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "model-specific terms; redistribution not cleared"
+  },
+  {
+    "id": "adaptecca-heat-ssp245",
+    "title": "CMIP6 heatwave duration SSP245 sample",
+    "url": "https://escenarios.adaptecca.es/thredds/fileServer/peninsula/Proyecciones_CMIP6_en_rejilla/Climatologia/Temperatura/tasmaxhwdmax/climatology_CMIP6_ESD-RegBA_tasmaxhwdmax_ssp245.nc",
+    "kind": "dataset",
+    "review_status": "NetCDF metadata inspected and annual field read",
+    "notes": "11 climate-model members plus average. See research/adaptecca-access-check.md.",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "embedded metadata states CC BY 4.0"
+  },
+  {
+    "id": "flood-present-1",
+    "title": "snczi-study-inventory",
+    "url": "https://www.miteco.gob.es/es/cartografia-y-sig/ide/descargas/agua/inventario-tramos.html",
+    "kind": "reference",
+    "review_status": "reviewed in present flood audit",
+    "notes": "See research/flood-present-audit.md",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "see original source"
+  },
+  {
+    "id": "flood-present-2",
+    "title": "snczi-third-cycle-methodology",
+    "url": "https://www.miteco.gob.es/content/dam/miteco/es/agua/temas/gestion-de-los-riesgos-de-inundacion/mapri/Documento%20metodol%C3%B3gico%20SNCZI%20rev3C.pdf",
+    "kind": "reference",
+    "review_status": "reviewed in present flood audit",
+    "notes": "See research/flood-present-audit.md",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "see original source"
+  },
+  {
+    "id": "flood-present-3",
+    "title": "jrc-cems-inundation-methodology",
+    "url": "https://confluence.ecmwf.int/spaces/CEMS/pages/340774762/CEMS-Flood+flood+inundation+maps",
+    "kind": "reference",
+    "review_status": "reviewed in present flood audit",
+    "notes": "See research/flood-present-audit.md",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "see original source"
+  },
+  {
+    "id": "flood-present-4",
+    "title": "dottori-2022-europe-flood",
+    "url": "https://essd.copernicus.org/articles/14/1549/2022/",
+    "kind": "reference",
+    "review_status": "reviewed in present flood audit",
+    "notes": "See research/flood-present-audit.md",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "see original source"
+  },
+  {
+    "id": "future-reference-45c301c6",
+    "title": "Forzieri et al. 2016, Multi-hazard assessment in Europe under climate change",
+    "url": "https://link.springer.com/article/10.1007/s10584-016-1661-x",
+    "kind": "reference",
+    "review_status": "see future-comparison.md for depth",
+    "notes": "Future comparison research track",
+    "acquisition_status": "snapshot_downloaded",
+    "rights_status": "see source terms"
+  },
+  {
+    "id": "future-reference-1d4c07d5",
+    "title": "KC et al. 2020, journal volume 2021, Multi-hazard climate risk projections for the United States",
+    "url": "https://link.springer.com/article/10.1007/s11069-020-04385-y",
+    "kind": "reference",
+    "review_status": "see future-comparison.md for depth",
+    "notes": "Future comparison research track",
+    "acquisition_status": "snapshot_downloaded",
+    "rights_status": "see source terms"
+  },
+  {
+    "id": "future-reference-47f2e13c",
+    "title": "Stalhandske et al. 2024, Global multi-hazard risk assessment in a changing climate",
+    "url": "https://www.nature.com/articles/s41598-024-55775-2",
+    "kind": "reference",
+    "review_status": "see future-comparison.md for depth",
+    "notes": "Future comparison research track",
+    "acquisition_status": "snapshot_downloaded",
+    "rights_status": "see source terms"
+  },
+  {
+    "id": "future-reference-a1912764",
+    "title": "Khosravi and Ouarda 2026, Collapse of climatic refugia under compound climate hazards in the Middle East and North Africa",
+    "url": "https://www.nature.com/articles/s44304-026-00213-8",
+    "kind": "reference",
+    "review_status": "see future-comparison.md for depth",
+    "notes": "Future comparison research track",
+    "acquisition_status": "snapshot_downloaded",
+    "rights_status": "see source terms"
+  },
+  {
+    "id": "future-reference-5b8c2727",
+    "title": "C3S Atlas gridded dataset",
+    "url": "https://cds.climate.copernicus.eu/datasets/multi-origin-c3s-atlas?tab=overview",
+    "kind": "reference",
+    "review_status": "see future-comparison.md for depth",
+    "notes": "Future comparison research track",
+    "acquisition_status": "snapshot_downloaded",
+    "rights_status": "see source terms"
+  },
+  {
+    "id": "future-reference-6206bb6d",
+    "title": "C3S fire-danger projections",
+    "url": "https://cds.climate.copernicus.eu/datasets/sis-tourism-fire-danger-indicators?tab=overview",
+    "kind": "reference",
+    "review_status": "see future-comparison.md for depth",
+    "notes": "Future comparison research track",
+    "acquisition_status": "snapshot_downloaded",
+    "rights_status": "see source terms"
+  },
+  {
+    "id": "future-reference-e5acc7b9",
+    "title": "ISIMIP repository",
+    "url": "https://www.isimip.org/outputdata/isimip-repository/",
+    "kind": "reference",
+    "review_status": "see future-comparison.md for depth",
+    "notes": "Future comparison research track",
+    "acquisition_status": "snapshot_downloaded",
+    "rights_status": "see source terms"
+  },
+  {
+    "id": "flood-future-1",
+    "title": "coclico-catalog",
+    "url": "https://minio.dive.edito.eu/project-coclico/coclico-stac-edito/catalog.json",
+    "kind": "reference",
+    "review_status": "see flood-future-audit.md",
+    "notes": "Future flood research; inspect processing field for cropped samples.",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "see original source"
+  },
+  {
+    "id": "flood-future-2",
+    "title": "coclico-flood-collection",
+    "url": "https://minio.dive.edito.eu/project-coclico/coclico-stac-edito/cfhp_all/collection.json",
+    "kind": "reference",
+    "review_status": "see flood-future-audit.md",
+    "notes": "Future flood research; inspect processing field for cropped samples.",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "see original source"
+  },
+  {
+    "id": "flood-future-3",
+    "title": "coclico-undefended-rp100-ssp245-2050",
+    "url": "https://minio.dive.edito.eu/project-coclico/coclico-stac-edito/cfhp_all/items/UNDEFENDED_MAPS/100/SSP245/2050.json",
+    "kind": "reference",
+    "review_status": "see flood-future-audit.md",
+    "notes": "Future flood research; inspect processing field for cropped samples.",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "see original source"
+  },
+  {
+    "id": "flood-future-4",
+    "title": "aqueduct-hazard-index",
+    "url": "https://aqueduct.wridata.org/AqueductFloods20/index.html",
+    "kind": "reference",
+    "review_status": "see flood-future-audit.md",
+    "notes": "Future flood research; inspect processing field for cropped samples.",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "see original source"
+  },
+  {
+    "id": "flood-future-5",
+    "title": "aqueduct-methodology",
+    "url": "https://files.wri.org/d8/s3fs-public/aqueduct-floods-methodology.pdf",
+    "kind": "reference",
+    "review_status": "see flood-future-audit.md",
+    "notes": "Future flood research; inspect processing field for cropped samples.",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "see original source"
+  },
+  {
+    "id": "flood-future-6",
+    "title": "valencia-pima-download-index",
+    "url": "https://descargas.icv.gva.es/dcd/05_medioambiente/07_riesgos_cclimatico/PIMA/pima_impactos_inun/",
+    "kind": "reference",
+    "review_status": "see flood-future-audit.md",
+    "notes": "Future flood research; inspect processing field for cropped samples.",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "see original source"
+  },
+  {
+    "id": "flood-future-7",
+    "title": "valencia-pima-catalogue",
+    "url": "https://dadesobertes.gva.es/dataset/pima-adapta-impactos-escenarios-de-inundacion",
+    "kind": "reference",
+    "review_status": "see flood-future-audit.md",
+    "notes": "Future flood research; inspect processing field for cropped samples.",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "see original source"
+  },
+  {
+    "id": "flood-future-8",
+    "title": "coclico-handbook",
+    "url": "https://www.openearth.nl/coclico-workbench/Datasets/",
+    "kind": "reference",
+    "review_status": "see flood-future-audit.md",
+    "notes": "Future flood research; inspect processing field for cropped samples.",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "see original source"
+  },
+  {
+    "id": "flood-future-9",
+    "title": "coclico-valencia-sample-ssp245-2050-rp100-undefended",
+    "url": "https://minio.dive.edito.eu/project-coclico/cfhp_all/UNDEFENDED_MAPS/100/SSP245/2050/B01_epsg=3035_x=3186162_y=1319937.tif",
+    "kind": "dataset",
+    "review_status": "see flood-future-audit.md",
+    "notes": "Future flood research; inspect processing field for cropped samples.",
+    "acquisition_status": "local_artifact_preserved",
+    "rights_status": "see original source"
+  },
+  {
+    "id": "audit-reference-96ddd682",
+    "title": "Fathom Global Flood Map",
+    "url": "https://api-docs.fathom.global/data/dynamic_layers.html",
+    "kind": "reference",
+    "review_status": "see flood-future-audit.md",
+    "notes": "Reference from parallel flood audit",
+    "acquisition_status": "not_downloaded",
+    "rights_status": "see source terms"
+  },
+  {
+    "id": "audit-reference-706b7618",
+    "title": "Copernicus sea-level indicators",
+    "url": "https://cds.climate.copernicus.eu/datasets/sis-water-level-change-indicators-cmip6?tab=overview",
+    "kind": "reference",
+    "review_status": "see flood-future-audit.md",
+    "notes": "Reference from parallel flood audit",
+    "acquisition_status": "not_downloaded",
+    "rights_status": "see source terms"
+  },
+  {
+    "id": "audit-reference-8b5f9de7",
+    "title": "Earth Engine",
+    "url": "https://developers.google.com/earth-engine/datasets/catalog/WRI_Aqueduct_Flood_Hazard_Maps_V2",
+    "kind": "reference",
+    "review_status": "see flood-future-audit.md",
+    "notes": "Reference from parallel flood audit",
+    "acquisition_status": "not_downloaded",
+    "rights_status": "see source terms"
+  },
+  {
+    "id": "audit-reference-9646a566",
+    "title": "WRI's FAQ",
+    "url": "https://www.wri.org/aqueduct/faq",
+    "kind": "reference",
+    "review_status": "see flood-future-audit.md",
+    "notes": "Reference from parallel flood audit",
+    "acquisition_status": "not_downloaded",
+    "rights_status": "see source terms"
+  },
+  {
+    "id": "audit-reference-39bbe197",
+    "title": "Wing et al. 2024",
+    "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023WR036460",
+    "kind": "reference",
+    "review_status": "see flood-future-audit.md",
+    "notes": "Reference from parallel flood audit",
+    "acquisition_status": "not_downloaded",
+    "rights_status": "see source terms"
+  },
+  {
+    "id": "audit-reference-4876e367",
+    "title": "defence inventory announcement",
+    "url": "https://www.miteco.gob.es/es/prensa/ultimas-noticias/2021/05/el_miteco_publicaelinventariodeobrasdedefensafrenteainundaciones.html",
+    "kind": "reference",
+    "review_status": "see flood-present-audit.md",
+    "notes": "Reference from parallel flood audit",
+    "acquisition_status": "not_downloaded",
+    "rights_status": "see source terms"
   }
 ]

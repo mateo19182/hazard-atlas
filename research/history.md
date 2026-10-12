@@ -35,3 +35,9 @@ Targeted web research, reading the supplied Springer chapter, inspecting UNICEF 
 ## Research phase begins
 
 The user asked to start work, keep the approach simple, open and creative, and ask about relevant decisions. The first research pass checks a flood-source comparison and adds two review leads. Present-day versus future conditions remains an open question. No final index or implementation stack is selected.
+
+## Future hazards take priority
+
+The user found the initial flood-only exercise too limited as a project direction. Future hazards are the main interest, with present-day conditions relevant as a baseline. They explicitly requested parallel subagents. Research now covers present flood sources, future flood projections, and comparable future hazards and prior work. The horizon question remains open.
+
+The user subsequently selected around 2050, with a present-day baseline. This supersedes the pending horizon question above.
